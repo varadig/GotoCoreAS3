@@ -122,9 +122,9 @@ public class CoreUtils extends CoreBaseClass {
     }
 
     public static function getClosestValue(value:Number, arr:Array):Number {
-        var closestNum:Number = Number;
-        var closestArrayItem:Number = Number;
-        var tempNum:Number = Number;
+        var closestNum:Number;
+        var closestArrayItem:Number;
+        var tempNum:Number;
 
         for (var i:Number = 0; i < arr.length; i++) {
 

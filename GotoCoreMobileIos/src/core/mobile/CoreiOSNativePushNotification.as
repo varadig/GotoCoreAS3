@@ -1,5 +1,7 @@
 package core.mobile
 {
+import core.base.CoreBaseClass;
+
 import pl.randori.air.nativeextensions.ios.APNSExtension;
 import pl.randori.air.nativeextensions.ios.APNSExtensionEvent;
 

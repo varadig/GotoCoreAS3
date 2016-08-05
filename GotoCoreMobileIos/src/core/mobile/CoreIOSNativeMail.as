@@ -1,4 +1,8 @@
 package core.mobile {
+import core.base.CoreBaseClass;
+import core.notification.CoreNotification;
+import core.service.CoreService;
+
 import flash.filesystem.File;
 import flash.filesystem.FileMode;
 import flash.filesystem.FileStream;

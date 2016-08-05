@@ -1,4 +1,6 @@
 ﻿package core.utils {
+import core.base.CoreBaseClass;
+
 import flash.system.Capabilities;
 
 import pl.mateuszmackowiak.nativeANE.properties.SystemProperties;

@@ -1,4 +1,9 @@
 package plugins.mxml.spark {
+import core.base.CoreBaseClassFactory;
+import core.base.CoreCallback;
+import core.context.CoreContext;
+import core.service.CoreServiceContainer;
+
 import spark.components.Application;
 
 public class GuiApplication extends Application {

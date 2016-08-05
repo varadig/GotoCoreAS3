@@ -17,6 +17,9 @@
             <entry library-id="4064beec-547f-489a-bd88-e6b4654714ed">
               <dependency linkage="Include" />
             </entry>
+            <entry module-name="GotoCore" build-configuration-name="GotoCore">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="air22_flex4.15.0" />
         </dependencies>
@@ -80,5 +83,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="GotoCore" exported="" />
   </component>
 </module>

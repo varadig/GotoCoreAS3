@@ -14,6 +14,9 @@
             <entry module-name="GotoCoreMobile" build-configuration-name="GotoCoreMobile">
               <dependency linkage="Merged" />
             </entry>
+            <entry module-name="GotoCore" build-configuration-name="GotoCore">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="air22_flex4.15.0" />
         </dependencies>
@@ -61,5 +64,6 @@
     </orderEntry>
     <orderEntry type="module" module-name="GotoCoreDesktop" exported="" />
     <orderEntry type="module" module-name="GotoCoreMobile" exported="" />
+    <orderEntry type="module" module-name="GotoCore" exported="" />
   </component>
 </module>
