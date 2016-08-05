@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="GotoCore">
+    <configurations>
+      <configuration name="GotoCore" output-type="Library" output-file="GotoCore.swc" output-folder="$MODULE_DIR$/../bin">
+        <dependencies target-player="22.0" framework-linkage="External">
+          <entries>
+            <entry library-id="35584d7e-b3ed-4446-9078-80161211cc25">
+              <dependency linkage="Include" />
+            </entry>
+          </entries>
+          <sdk name="air22_flex4.15.0" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.locale" value="en_US" />
+          </map>
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/extsrc" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air22_flex4.15.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="GotoCore" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="35584d7e-b3ed-4446-9078-80161211cc25" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="Greensock" level="application" />
+    <orderEntry type="library" exported="" name="src" level="application" />
+  </component>
+</module>

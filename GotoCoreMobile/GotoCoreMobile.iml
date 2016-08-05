@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="GotoCoreMobile">
+    <configurations>
+      <configuration name="GotoCoreMobile" target-platform="Mobile" output-type="Library" output-file="GotoCoreMobile.swc" output-folder="$MODULE_DIR$/../bin">
+        <dependencies>
+          <entries>
+            <entry library-id="ddb530f0-8f5a-4920-91a9-6bdf02f1f4e4">
+              <dependency linkage="Include" />
+            </entry>
+            <entry module-name="GotoCoreDesktop" build-configuration-name="GotoCoreDesktop">
+              <dependency linkage="Include" />
+            </entry>
+            <entry library-id="29f93069-08b0-419d-add1-507b191fa50d">
+              <dependency linkage="Include" />
+            </entry>
+            <entry library-id="4064beec-547f-489a-bd88-e6b4654714ed">
+              <dependency linkage="Include" />
+            </entry>
+          </entries>
+          <sdk name="air22_flex4.15.0" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air22_flex4.15.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="GotoCoreMobile" level="project" />
+    <orderEntry type="library" exported="" name="lib2" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="DragonBones" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="ddb530f0-8f5a-4920-91a9-6bdf02f1f4e4" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="GotoCoreDesktop" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="29f93069-08b0-419d-add1-507b191fa50d" />
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Develop/AS3/SDK/OSX/air_sdk_15/frameworks/libs/mobile/mobilecomponents.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="4064beec-547f-489a-bd88-e6b4654714ed" />
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Develop/AS3/SDK/OSX/air_sdk_15/frameworks/themes/Mobile/mobile.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

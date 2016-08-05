@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- SimpleManifest.xml -->
+<componentPackage>
+
+    <!--MXML-->
+    <component id="GuiApplication" class="plugins.mxml.feathers.GuiApplication"/>
+    <component id="GuiAutoComplete" class="plugins.mxml.feathers.GuiAutoComplete"/>
+    <component id="GuiButton" class="plugins.mxml.feathers.GuiButton"/>
+    <component id="GuiButtonGroup" class="plugins.mxml.feathers.GuiButtonGroup"/>
+    <component id="GuiDrawersApplication" class="plugins.mxml.feathers.GuiDrawersApplication"/>
+    <component id="GuiGroupedList" class="plugins.mxml.feathers.GuiGroupedList"/>
+    <component id="GuiImageLoader" class="plugins.mxml.feathers.GuiImageLoader"/>
+    <component id="GuiLabel" class="plugins.mxml.feathers.GuiLabel"/>
+    <component id="GuiLayoutGroup" class="plugins.mxml.feathers.GuiLayoutGroup"/>
+    <component id="GuiLayoutGroupGroupedListItemRenderer"
+               class="plugins.mxml.feathers.GuiLayoutGroupGroupedListItemRenderer"/>
+    <component id="GuiLayoutGroupListItemRenderer" class="plugins.mxml.feathers.GuiLayoutGroupListItemRenderer"/>
+    <component id="GuiList" class="plugins.mxml.feathers.GuiList"/>
+    <component id="GuiPanelScreen" class="plugins.mxml.feathers.GuiPanelScreen"/>
+    <component id="GuiScreen" class="plugins.mxml.feathers.GuiScreen"/>
+    <component id="GuiScrollScreen" class="plugins.mxml.feathers.GuiScrollScreen"/>
+    <component id="GuiScreenNavigator" class="plugins.mxml.feathers.GuiScreenNavigator"/>
+    <component id="GuiScreenNavigatorItem" class="plugins.mxml.feathers.GuiScreenNavigatorItem"/>
+    <component id="GuiScrollContainer" class="plugins.mxml.feathers.GuiScrollContainer"/>
+    <component id="GuiSlider" class="plugins.mxml.feathers.GuiSlider"/>
+    <component id="GuiStackScreenNavigator" class="plugins.mxml.feathers.GuiStackScreenNavigator"/>
+    <component id="GuiStackScreenNavigatorApplication"
+               class="plugins.mxml.feathers.GuiStackScreenNavigatorApplication"/>
+    <component id="GuiStarlingBootstrapApplication" class="plugins.mxml.feathers.GuiStarlingBootstrapApplication"/>
+    <component id="GuiTabBar" class="plugins.mxml.feathers.GuiTabBar"/>
+    <component id="GuiTextInput" class="plugins.mxml.feathers.GuiTextInput"/>
+    <component id="GuiToggleButton" class="plugins.mxml.feathers.GuiToggleButton"/>
+    <component id="GuiToggleSwitch" class="plugins.mxml.feathers.GuiToggleSwitch"/>
+    <component id="GuiCallout" class="plugins.mxml.feathers.GuiCallout"/>
+    <component id="GuiHeader" class="plugins.mxml.feathers.GuiHeader"/>
+    <component id="GuiVideoPlayer" class="plugins.mxml.feathers.GuiVideoPlayer"/>
+    <component id="GuiSoundPlayer" class="plugins.mxml.feathers.GuiSoundPlayer"/>
+    <component id="GuiWebView" class="plugins.mxml.feathers.GuiWebView"/>
+    <!--AS-->
+    <component id="CoreFeathersConsole" class="core.logger.CoreFeathersConsole"/>
+</componentPackage>

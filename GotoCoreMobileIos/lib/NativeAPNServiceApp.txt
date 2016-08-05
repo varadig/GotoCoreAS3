@@ -1,0 +1,3 @@
+	<extensions>
+    	<extensionID>pl.randori.air.nativeextensions.ios.APNSExtension</extensionID>
+    </extensions>

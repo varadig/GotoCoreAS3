@@ -1,0 +1,34 @@
+package plugins.mxml.spark {
+import spark.components.Application;
+
+public class GuiApplication extends Application {
+    public var sc:CoreServiceContainer;
+
+    public var context:CoreContext;
+
+
+    public var callbacks:Array = [];
+
+    public function GuiApplication() {
+        CoreBaseClassFactory.construct(this);
+    }
+
+    public function serviceAddCallback(params:Array):void {
+        CoreBaseClassFactory.serviceAddCallback(this, params);
+    }
+
+    public function serviceAddCallbacks(params:Array):void {
+        CoreBaseClassFactory.serviceAddCallbacks(this, params);
+    }
+
+    protected function createCallBack(group:String):CoreCallback {
+        return CoreBaseClassFactory.createCallBack(this, group);
+    }
+
+    protected function log(message:Object):void {
+        CoreBaseClassFactory.log(this, message);
+    }
+}
+}
+
+
