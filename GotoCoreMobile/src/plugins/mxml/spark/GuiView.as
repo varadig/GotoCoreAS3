@@ -32,15 +32,17 @@ public class GuiView extends View
 		{
 			CoreBaseClassFactory.serviceAddCallbacks(this, params);
 		}
+	public function serviceRemoveCallback(params:Array):void {
+		CoreBaseClassFactory.serviceRemoveCallback(this, params);
+	}
 
-		protected function createCallBack(group:String):CoreCallback
-		{
-			return CoreBaseClassFactory.createCallBack(this, group);
-		}
+	public function serviceRemoveCallbacks(params:Array):void {
+		CoreBaseClassFactory.serviceRemoveCallbacks(this, params);
+	}
 
-		protected function log(message:Object):void
-		{
-			CoreBaseClassFactory.log(this, message);
-		}
+	protected function log(message:Object):void
+	{
+		CoreBaseClassFactory.log(this, message);
+	}
 	}
 }

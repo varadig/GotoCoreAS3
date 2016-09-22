@@ -8,7 +8,7 @@
             <entry module-name="GotoCore" build-configuration-name="GotoCore">
               <dependency linkage="External" />
             </entry>
-            <entry library-name="feathers_3.0.1_libraries" library-level="application">
+            <entry library-name="feathers_libraries" library-level="application">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -34,5 +34,6 @@
     <orderEntry type="library" exported="" name="feathers_3.0_beta_libraries" level="application" />
     <orderEntry type="library" exported="" name="feathers_3.0_libraries" level="application" />
     <orderEntry type="library" exported="" name="feathers_3.0.1_libraries" level="application" />
+    <orderEntry type="library" exported="" name="feathers_libraries" level="application" />
   </component>
 </module>
