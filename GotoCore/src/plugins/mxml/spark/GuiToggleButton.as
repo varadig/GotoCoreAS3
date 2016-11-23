@@ -18,6 +18,11 @@ public class GuiToggleButton extends ToggleButton
 		public var context:CoreContext;
 		public var callbacks:Array=[];
 
+	[Bindable]
+	public var selectedIcon:Object;
+	[Bindable]
+	public var upIcon:Object;
+
 		public function serviceAddCallback(params:Array):void
 		{
 			CoreBaseClassFactory.serviceAddCallback(this, params);

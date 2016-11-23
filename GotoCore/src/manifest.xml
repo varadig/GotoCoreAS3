@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- SimpleManifest.xml -->
+<componentPackage>
+
+    <!--MXML-->
+    <component id="GuiApplication" class="plugins.mxml.spark.GuiApplication"/>
+    <component id="GuiTitleWindow" class="plugins.mxml.spark.GuiTitleWindow"/>
+</componentPackage>
