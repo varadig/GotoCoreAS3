@@ -1,7 +1,10 @@
-﻿﻿﻿package core.notification {
+﻿package core.notification {
+
 import core.base.CoreBaseSender;
 import core.base.interfaces.IExecutable;
 import core.service.CoreServiceContainer;
+
+import flash.utils.getQualifiedClassName;
 
 public class CoreNotification extends CoreBaseSender {
     public static const CREATE_NOTIFICATION:String = "create.notification";
@@ -22,6 +25,12 @@ public class CoreNotification extends CoreBaseSender {
     public static function createNotification(name:String):CoreNotification {
         return CoreServiceContainer.getInstance().getService(CoreNotification.CREATE_NOTIFICATION)
                 .addParam(CoreNotification.NAME, name)
+                .execute();
+    }
+
+    public static function createNotificationFromClass(c:Class):CoreNotification {
+        return CoreServiceContainer.getInstance().getService(CoreNotification.CREATE_NOTIFICATION)
+                .addParam(CoreNotification.NAME, getQualifiedClassName(c))
                 .execute();
     }
 }

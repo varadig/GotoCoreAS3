@@ -1,6 +1,8 @@
-﻿﻿package core.notification {
+﻿package core.notification {
 import core.base.CoreBaseFunctionWrapper;
 import core.service.CoreServiceContainer;
+
+import flash.utils.getQualifiedClassName;
 
 public class CoreListener extends CoreBaseFunctionWrapper {
 
@@ -31,12 +33,30 @@ public class CoreListener extends CoreBaseFunctionWrapper {
                 .execute();
     }
 
+    public static function registerForClass(c:Class, callback:Function):void {
+        var name:String = getQualifiedClassName(c);
+        var listener:CoreListener = new CoreListener(name, callback);
+        CoreServiceContainer.getInstance().getService(CoreListener.REGISTER_LISTENER)
+                .addParam(CoreListener.LISTENER, listener)
+                .addParam(CoreListener.NAME, name)
+                .execute();
+    }
+
     public static function registers(names:Vector.<String>, callback:Function):void {
         for each(var name:String in names)
             CoreListener.register(name, callback);
     }
 
     public static function unregister(name:String, callback:Function):void {
+        CoreServiceContainer.getInstance().getService(CoreListener.REMOVE_LISTENER)
+                .addParam(CoreListener.NAME, name)
+                .addParam(CoreListener.REFERENCE, callback)
+                .execute();
+    }
+
+    public static function unregisterFromClass(c:Class, callback:Function):void {
+        var name:String = getQualifiedClassName(c);
+
         CoreServiceContainer.getInstance().getService(CoreListener.REMOVE_LISTENER)
                 .addParam(CoreListener.NAME, name)
                 .addParam(CoreListener.REFERENCE, callback)
