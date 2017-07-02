@@ -17,6 +17,8 @@
     <component id="GuiLayoutGroupListItemRenderer" class="plugins.mxml.feathers.GuiLayoutGroupListItemRenderer"/>
     <component id="GuiList" class="plugins.mxml.feathers.GuiList"/>
     <component id="GuiPanelScreen" class="plugins.mxml.feathers.GuiPanelScreen"/>
+    <component id="GuiPanel" class="plugins.mxml.feathers.GuiPanel"/>
+    <component id="GuiPlayPauseToggleButton" class="plugins.mxml.feathers.GuiPlayPauseToggleButton"/>
     <component id="GuiScreen" class="plugins.mxml.feathers.GuiScreen"/>
     <component id="GuiScrollScreen" class="plugins.mxml.feathers.GuiScrollScreen"/>
     <component id="GuiScreenNavigator" class="plugins.mxml.feathers.GuiScreenNavigator"/>

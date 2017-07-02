@@ -89,10 +89,10 @@ public class CoreFileSystem extends CoreBaseClass {
         return _fs.getSubFolders(params[PATH]);
     }
 
+
     private function serviceGetFiles(params:Array):Vector.<String> {
         return _fs.getFiles(params[PATH]);
     }
-
 
     private function serviceFileExists(params:Array):Boolean {
         return _fs.fileExists(params[PATH]);
@@ -152,10 +152,10 @@ public class CoreFileSystem extends CoreBaseClass {
         return _fs.readFile(params[PATH]);
     }
 
+
     private function serviceDeleteFile(params:Array):File {
         return _fs.deleteFile(params[PATH]);
     }
-
 
     private function serviceDeleteFolder(params:Array):File {
         return _fs.deleteFolder(params[PATH]);

@@ -28,7 +28,6 @@ import flash.display.NativeWindowInitOptions;
 		public function GuiNativeWindow(initOptions:NativeWindowInitOptions)
 		{
 			super(initOptions);
-
 			this._name=this.generateName();
 
 			CoreBaseClassFactory.construct(this);

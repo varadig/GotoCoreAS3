@@ -1,6 +1,8 @@
 ﻿package core.logger {
 import core.logger.base.CoreBaseLogger;
 
+import flash.desktop.NativeApplication;
+import flash.events.Event;
 import flash.filesystem.File;
 import flash.filesystem.FileMode;
 import flash.filesystem.FileStream;
@@ -14,9 +16,15 @@ public class CoreLoggerFile extends CoreBaseLogger {
 
     public function CoreLoggerFile(file:File):void {
         this.file = file;
+
         this.stream = new FileStream();
+        this.stream.open(this.file, FileMode.APPEND);
+
+        NativeApplication.nativeApplication.addEventListener(Event.EXITING, exitingHandler);
+
         this.sc.registerService(ARCHIVE, this.serviceArchiveLogFile);
         this.sc.registerService(READ, this.serviceReadLogFile);
+
     }
 
     private function serviceArchiveLogFile(params:Array):void {
@@ -44,8 +52,10 @@ public class CoreLoggerFile extends CoreBaseLogger {
     }
 
     override protected function addLogEntry(message:String):void {
-        this.stream.open(this.file, FileMode.APPEND);
-        this.stream.writeUTFBytes(this.createEntryFrom(message));
+            this.stream.writeUTFBytes(this.createEntryFrom(message));
+    }
+
+    private function exitingHandler(event:Event):void {
         this.stream.close();
     }
 }

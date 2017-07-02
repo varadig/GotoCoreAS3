@@ -3,7 +3,7 @@
   <component name="FlexBuildConfigurationManager" active="GotoCoreStarling">
     <configurations>
       <configuration name="GotoCoreStarling" output-type="Library" output-file="GotoCoreStarling.swc" output-folder="$MODULE_DIR$/../bin">
-        <dependencies target-player="22.0">
+        <dependencies target-player="24.0">
           <entries>
             <entry module-name="GotoCore" build-configuration-name="GotoCore">
               <dependency linkage="External" />
@@ -12,7 +12,7 @@
               <dependency linkage="Merged" />
             </entry>
           </entries>
-          <sdk name="air22_flex4.15.0" />
+          <sdk name="air24_flex4.15.0" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
@@ -28,7 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/extsrc" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="air22_flex4.15.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="air24_flex4.15.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="GotoCore" exported="" />
     <orderEntry type="library" exported="" name="feathers_3.0_beta_libraries" level="application" />

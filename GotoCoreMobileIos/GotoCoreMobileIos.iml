@@ -8,17 +8,17 @@
             <entry library-id="f3f75fc6-ece5-410d-969d-5a1432314d90">
               <dependency linkage="Merged" />
             </entry>
-            <entry module-name="GotoCoreDesktop" build-configuration-name="GotoCoreDesktop">
-              <dependency linkage="Merged" />
-            </entry>
             <entry module-name="GotoCoreMobile" build-configuration-name="GotoCoreMobile">
               <dependency linkage="Merged" />
             </entry>
             <entry module-name="GotoCore" build-configuration-name="GotoCore">
               <dependency linkage="Merged" />
             </entry>
+            <entry module-name="GotoCoreDesktop" build-configuration-name="GotoCoreDesktop">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
-          <sdk name="air22_flex4.15.0" />
+          <sdk name="air24_flex4.15.0" />
         </dependencies>
         <compiler-options>
           <map>
@@ -37,7 +37,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="air22_flex4.15.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="air24_flex4.15.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="GotoCoreMobileIos" level="project" />
     <orderEntry type="library" exported="" name="lib3" level="project" />
@@ -62,8 +62,9 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="GotoCoreDesktop" exported="" />
     <orderEntry type="module" module-name="GotoCoreMobile" exported="" />
     <orderEntry type="module" module-name="GotoCore" exported="" />
+    <orderEntry type="library" exported="" name="air24" level="application" />
+    <orderEntry type="module" module-name="GotoCoreDesktop" exported="" />
   </component>
 </module>

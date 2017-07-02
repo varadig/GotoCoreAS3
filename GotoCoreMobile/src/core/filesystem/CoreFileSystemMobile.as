@@ -1,16 +1,20 @@
-﻿package core.filesystem {
+/**
+ * Created by varadig on 02/01/17.
+ */
+package core.filesystem {
 import core.filesystem.base.CoreBaseFileSystem;
 import core.filesystem.base.IFileSystem;
 
 import flash.filesystem.File;
 import flash.filesystem.FileMode;
 import flash.filesystem.FileStream;
+import flash.permissions.PermissionStatus;
 import flash.utils.ByteArray;
 
-public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSystem {
-    public function CoreFileSystemDesktop() {
+public class CoreFileSystemMobile extends CoreBaseFileSystem implements IFileSystem {
+    public function CoreFileSystemMobile() {
+        super();
     }
-
 
     public function getSubFolders(path:String):Vector.<String> {
         if (!this.folderExists(path))
@@ -141,7 +145,7 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         var file:File;
         if (path is String)
             file = new File(path as String);
-        else if(path is File)
+        else
             file = path as File;
 
         return file;
