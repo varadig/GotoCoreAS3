@@ -2,6 +2,7 @@
  * Created by varadig on 28/07/14.
  */
 package core.utils {
+import flash.desktop.NativeApplication;
 import flash.filesystem.File;
 
 public class CoreDesktopUtils extends CoreUtils {
@@ -21,6 +22,12 @@ public class CoreDesktopUtils extends CoreUtils {
 
     public static function get availableTb():int {
         return (File.applicationStorageDirectory.spaceAvailable / CoreUnits.TERABYTE_IN_BYTE);
+    }
+
+    public static function get appVersion():String{
+        var xml : XML = NativeApplication.nativeApplication.applicationDescriptor;
+        var ns : Namespace = xml.namespace();
+        return xml.ns::versionNumber;
     }
 }
 }

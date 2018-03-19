@@ -1,11 +1,14 @@
 ﻿package core.logger {
 import core.logger.base.CoreBaseLogger;
+import core.utils.CoreUtils;
 
 import flash.desktop.NativeApplication;
 import flash.events.Event;
+import flash.events.PermissionEvent;
 import flash.filesystem.File;
 import flash.filesystem.FileMode;
 import flash.filesystem.FileStream;
+import flash.permissions.PermissionStatus;
 
 public class CoreLoggerFile extends CoreBaseLogger {
     public static const PATHS:String = "log.file.path";
@@ -16,14 +19,48 @@ public class CoreLoggerFile extends CoreBaseLogger {
 
     public function CoreLoggerFile(file:File):void {
         this.file = file;
-
-        this.stream = new FileStream();
-        this.stream.open(this.file, FileMode.APPEND);
+        this.handleFilePermission();
 
         NativeApplication.nativeApplication.addEventListener(Event.EXITING, exitingHandler);
 
         this.sc.registerService(ARCHIVE, this.serviceArchiveLogFile);
         this.sc.registerService(READ, this.serviceReadLogFile);
+
+    }
+
+    private function handleFilePermission():void {
+        if (CoreUtils.isDesktop) {
+            this.stream = new FileStream();
+            this.stream.open(file, FileMode.APPEND);
+
+        }
+        else {
+
+
+            if (File.permissionStatus != PermissionStatus.GRANTED) {
+                this.file.addEventListener(PermissionEvent.PERMISSION_STATUS, function (event:PermissionEvent):void {
+                    if (event.status == PermissionStatus.GRANTED) {
+                        this.stream = new FileStream();
+                        this.stream.open(file, FileMode.APPEND);
+
+
+                    }
+                });
+
+                try {
+
+                    this.file.requestPermission();
+
+                } catch (e:Error) {
+                    trace("Another request is in progress");
+                }
+            }
+            else {
+                this.file.requestPermission();
+//                this.stream = new FileStream();
+//                this.stream.open(this.file, FileMode.APPEND);
+            }
+        }
 
     }
 
@@ -44,6 +81,8 @@ public class CoreLoggerFile extends CoreBaseLogger {
     }
 
     private function serviceReadLogFile(params:Array):String {
+        if (!this.stream)
+            return null;
         var log:String;
         this.stream.open(this.file, FileMode.READ);
         log = this.stream.readUTFBytes(this.stream.bytesAvailable);
@@ -52,7 +91,9 @@ public class CoreLoggerFile extends CoreBaseLogger {
     }
 
     override protected function addLogEntry(message:String):void {
-            this.stream.writeUTFBytes(this.createEntryFrom(message));
+        if (!this.stream)
+            return;
+        this.stream.writeUTFBytes(this.createEntryFrom(message));
     }
 
     private function exitingHandler(event:Event):void {

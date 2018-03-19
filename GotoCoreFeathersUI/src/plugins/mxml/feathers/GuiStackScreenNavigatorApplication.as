@@ -33,6 +33,7 @@ public class GuiStackScreenNavigatorApplication extends StackScreenNavigatorAppl
     public function serviceRemoveCallback(params:Array):void {
         CoreBaseClassFactory.serviceRemoveCallback(this, params);
     }
+
     public function serviceRemoveCallbacks(params:Array):void {
         CoreBaseClassFactory.serviceRemoveCallbacks(this, params);
     }
@@ -44,6 +45,25 @@ public class GuiStackScreenNavigatorApplication extends StackScreenNavigatorAppl
 
     protected function log(message:Object):void {
         CoreBaseClassFactory.log(this, message);
+    }
+
+    override protected function initialize():void {
+        super.initialize();
+        this.initializeCoreModules();
+        this.initializeModules();
+        this.initializeApplication();
+    }
+
+    protected function initializeCoreModules():void {
+    }
+
+    protected function initializeModules():void {
+    }
+
+    protected function initializeApplication():void {
+    }
+
+    protected function startApplication(params:Array=null):void {
     }
 }
 }

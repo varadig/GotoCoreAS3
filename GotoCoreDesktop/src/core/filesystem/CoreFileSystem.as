@@ -22,6 +22,7 @@ public class CoreFileSystem extends CoreBaseClass {
     public static const TO:String = 'core.filesystem.to';
     public static const CONTENT:String = 'core.filesystem.content';
     public static const FILE:String = 'core.filesystem.file';
+    public static const FILTER:String = 'core.filesystem.filter';
 
 
     /*SERVICES*/
@@ -85,13 +86,13 @@ public class CoreFileSystem extends CoreBaseClass {
         CoreNotificationContainer.getInstance();
     }
 
-    private function serviceGetSubFolders(params:Array):Vector.<String> {
+    private function serviceGetSubFolders(params:Array):Vector.<File> {
         return _fs.getSubFolders(params[PATH]);
     }
 
 
-    private function serviceGetFiles(params:Array):Vector.<String> {
-        return _fs.getFiles(params[PATH]);
+    private function serviceGetFiles(params:Array):Vector.<File> {
+        return _fs.getFiles(params[PATH], params[FILTER]);
     }
 
     private function serviceFileExists(params:Array):Boolean {

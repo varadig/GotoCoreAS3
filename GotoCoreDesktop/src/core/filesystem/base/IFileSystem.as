@@ -6,13 +6,13 @@ import flash.filesystem.File;
 import flash.utils.ByteArray;
 
 public interface IFileSystem {
-    function getSubFolders(path:String):Vector.<String>
+    function getSubFolders(path:Object):Vector.<File>
 
-    function getFiles(path:Object):Vector.<String>
+    function getFiles(path:Object,filter:Vector.<String>):Vector.<File>
 
-    function fileExists(path:String):Boolean
+    function fileExists(path:Object):Boolean
 
-    function folderExists(path:String):Boolean
+    function folderExists(path:Object):Boolean
 
     function createFolder(path:Object):File
 

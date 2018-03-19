@@ -1,4 +1,4 @@
-﻿﻿package core.notification {
+﻿package core.notification {
 import core.base.CoreBaseClass;
 import core.base.interfaces.IExecutable;
 
@@ -7,7 +7,6 @@ public class CoreNotificationContainer extends CoreBaseClass {
 
     public static function getInstance():CoreNotificationContainer {
         if (CoreNotificationContainer.instance == null) CoreNotificationContainer.instance = new CoreNotificationContainer();
-
         return CoreNotificationContainer.instance;
     }
 

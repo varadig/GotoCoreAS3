@@ -1,5 +1,4 @@
-﻿﻿﻿﻿
-package core.base {
+﻿package core.base {
 
 	public class CoreBaseSender extends CoreBaseParameterHolder
 	{

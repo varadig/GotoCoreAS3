@@ -2,6 +2,7 @@
 import core.base.CoreBaseFunctionWrapper;
 
 public class CoreService extends CoreBaseFunctionWrapper {
+
 	/*PROPERTIES*/
 	public static const CORE_SERVICE_NAME:String = "core.service.name";
 
@@ -18,6 +19,5 @@ public class CoreService extends CoreBaseFunctionWrapper {
 		service.addParams(this.params);
 		return service;
 	}
-
 }
 }

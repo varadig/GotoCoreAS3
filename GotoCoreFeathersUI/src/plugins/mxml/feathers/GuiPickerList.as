@@ -1,25 +1,26 @@
 /**
- * Created by varadig on 7/30/15.
+ * Created by varadig on 25/11/16.
  */
-package away3d.containers {
-import away3d.cameras.Camera3D;
-import away3d.core.render.RendererBase;
-
+package plugins.mxml.feathers {
 import core.base.CoreBaseClassFactory;
 import core.base.CoreCallback;
 import core.context.CoreContext;
 import core.service.CoreServiceContainer;
 
-public class CoreView3D extends View3D {
+import feathers.controls.PickerList;
 
-    public function CoreView3D(scene:Scene3D = null, camera:Camera3D = null, renderer:RendererBase = null, forceSoftware:Boolean = false, profile:String = "baseline") {
-        super(scene, camera, renderer, forceSoftware, profile);
+public class GuiPickerList extends PickerList {
+    public var sc:CoreServiceContainer;
+
+    public var context:CoreContext;
+
+
+    public var callbacks:Array = [];
+
+
+    public function GuiPickerList() {
         CoreBaseClassFactory.construct(this);
     }
-
-    public var sc:CoreServiceContainer;
-    public var context:CoreContext;
-    public var callbacks:Array = [];
 
     public function serviceAddCallback(params:Array):void {
         CoreBaseClassFactory.serviceAddCallback(this, params);
@@ -47,4 +48,3 @@ public class CoreView3D extends View3D {
     }
 }
 }
-

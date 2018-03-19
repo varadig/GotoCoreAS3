@@ -28,7 +28,7 @@ public class CoreServiceContainer {
 
     public function getService(name:String):IExecutable {
         if (this.mapping[name] == null) {
-            Log..error("Nincs ilyen service regisztrálva:  " + name);
+            Log.error("Nincs ilyen service regisztrálva:  " + name);
             //ExternalInterface.call(  'alert'  ,  "Nincs ilyen service regisztrálva:  "  +  name  );
             throw new Error("Nincs ilyen service regisztrálva:  " + name);
         }

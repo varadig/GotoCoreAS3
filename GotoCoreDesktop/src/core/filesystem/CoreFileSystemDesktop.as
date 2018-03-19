@@ -12,49 +12,54 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
     }
 
 
-    public function getSubFolders(path:String):Vector.<String> {
-        if (!this.folderExists(path))
-            return new Vector.<String>();
+    public function getSubFolders(path:Object):Vector.<File> {
+        var folder:File = this.parsePath(path);
+        if (!this.folderExists(folder))
+            return new Vector.<File>();
 
-        var folder:File = new File(path);
+
         var list:Array = folder.getDirectoryListing();
 
 
-        var folders:Vector.<String> = new Vector.<String>();
+        var folders:Vector.<File> = new Vector.<File>();
 
         for each (var item:File in list) {
             if (item.isDirectory)
-                folders.push(folder.getRelativePath(item));
+                folders.push(item);
         }
         return folders;
     }
 
-    public function getFiles(path:Object):Vector.<String> {
+    public function getFiles(path:Object, filter:Vector.<String>):Vector.<File> {
+
         var folder:File = this.parsePath(path);
         if (!folder.exists)
-            return new Vector.<String>();
+            return new Vector.<File>();
 
         var list:Array = folder.getDirectoryListing();
 
-        var files:Vector.<String> = new Vector.<String>();
+        var files:Vector.<File> = new Vector.<File>();
 
         for each (var item:File in list) {
             if (!item.isDirectory)
-
-                files.push(folder.getRelativePath(item));
-
-
+                if (filter) {
+                    if (filter.indexOf(item.extension) > -1){
+                        files.push(item);
+                    }
+                } else {
+                    files.push(item);
+                }
         }
         return files;
     }
 
 
-    public function fileExists(path:String):Boolean {
-        return new File(path).exists;
+    public function fileExists(path:Object):Boolean {
+        return parsePath(path).exists;
     }
 
-    public function folderExists(path:String):Boolean {
-        return this.fileExists(path);
+    public function folderExists(path:Object):Boolean {
+        return parsePath(path).exists;
     }
 
     public function createFolder(path:Object):File {
@@ -141,7 +146,7 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         var file:File;
         if (path is String)
             file = new File(path as String);
-        else if(path is File)
+        else if (path is File)
             file = path as File;
 
         return file;

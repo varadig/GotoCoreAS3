@@ -45,5 +45,6 @@ public class GuiStarlingBootstrapApplication extends StarlingBootstrap {
     protected function log(message:Object):void {
         CoreBaseClassFactory.log(this, message);
     }
+
 }
 }

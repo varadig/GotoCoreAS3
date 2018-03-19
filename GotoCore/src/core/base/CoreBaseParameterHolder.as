@@ -31,7 +31,8 @@ public class CoreBaseParameterHolder implements IExecutable
 
 	public function setParams(params:Array):IExecutable
 	{
-		for (var key:String in params) this.setParam(key, params[key]);
+		for (var key:String in params)
+			this.setParam(key, params[key]);
 
 		return this;
 	}
