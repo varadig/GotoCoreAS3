@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="682c78c6-f85d-444a-8b73-3e3bc06b5a67" name="Default" comment=".">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/BlitMask.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/BlitMask.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/FlexBlitMask.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/FlexBlitMask.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/OverwriteManager.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/OverwriteManager.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TimelineLite.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TimelineLite.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TimelineMax.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TimelineMax.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenAlign.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenAlign.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenLite.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenLite.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenMax.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenMax.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenNano.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenNano.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenProxy.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenProxy.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenProxy3D.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenProxy3D.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/changelog.txt" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/changelog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/PropTween.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/PropTween.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/SimpleTimeline.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/SimpleTimeline.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/TweenCore.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/TweenCore.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/data/TweenLiteVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/data/TweenLiteVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/data/TweenMaxVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/data/TweenMaxVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Back.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Back.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Bounce.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Bounce.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Circ.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Circ.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Cubic.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Cubic.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/CustomEase.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/CustomEase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/EaseLookup.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/EaseLookup.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Elastic.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Elastic.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Expo.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Expo.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/FastEase.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/FastEase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Linear.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Linear.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quad.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quad.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quart.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quart.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quint.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quint.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/RoughEase.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/RoughEase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Sine.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Sine.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/SteppedEase.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/SteppedEase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Strong.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Strong.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/easing_readme.txt" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/easing_readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/events/LoaderEvent.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/events/LoaderEvent.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/events/TweenEvent.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/events/TweenEvent.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/AlignMode.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/AlignMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/AutoFitArea.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/AutoFitArea.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/DynamicPinPoint.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/DynamicPinPoint.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/LiquidArea.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/LiquidArea.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/LiquidStage.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/LiquidStage.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/PinPoint.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/PinPoint.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/ScaleMode.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/ScaleMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/core/LiquidData.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/core/LiquidData.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/BinaryDataLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/BinaryDataLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/CSSLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/CSSLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/DataLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/DataLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/ImageLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/ImageLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/LoaderMax.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/LoaderMax.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/LoaderStatus.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/LoaderStatus.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/MP3Loader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/MP3Loader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/SWFLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/SWFLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/SelfLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/SelfLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/VideoLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/VideoLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/XMLLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/XMLLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/changelog.txt" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/changelog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/DisplayObjectLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/DisplayObjectLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/LoaderCore.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/LoaderCore.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/LoaderItem.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/LoaderItem.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/CSSLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/CSSLoaderVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/DataLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/DataLoaderVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/ImageLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/ImageLoaderVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/LoaderMaxVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/LoaderMaxVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/MP3LoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/MP3LoaderVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/SWFLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/SWFLoaderVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/VideoLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/VideoLoaderVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/XMLLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/XMLLoaderVars.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/display/ContentDisplay.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/display/ContentDisplay.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/display/FlexContentDisplay.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/display/FlexContentDisplay.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/CirclePath2D.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/CirclePath2D.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/Direction.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/Direction.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/LinePath2D.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/LinePath2D.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/MotionPath.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/MotionPath.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/PathFollower.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/PathFollower.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/RectanglePath2D.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/RectanglePath2D.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/AutoAlphaPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/AutoAlphaPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BevelFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BevelFilterPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BezierPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BezierPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BezierThroughPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BezierThroughPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BlurFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BlurFilterPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/CacheAsBitmapPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/CacheAsBitmapPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/CirclePath2DPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/CirclePath2DPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ColorMatrixFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ColorMatrixFilterPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ColorTransformPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ColorTransformPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/DropShadowFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/DropShadowFilterPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/DynamicPropsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/DynamicPropsPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/EndArrayPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/EndArrayPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/EndVectorPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/EndVectorPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FilterPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameBackwardPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameBackwardPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameForwardPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameForwardPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameLabelPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameLabelPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FramePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FramePlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/GlowFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/GlowFilterPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/HexColorsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/HexColorsPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/LiquidPositionPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/LiquidPositionPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/MotionBlurPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/MotionBlurPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/Physics2DPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/Physics2DPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/PhysicsPropsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/PhysicsPropsPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/QuaternionsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/QuaternionsPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/RemoveTintPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/RemoveTintPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/RoundPropsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/RoundPropsPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ScalePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ScalePlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ScrollRectPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ScrollRectPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SetActualSizePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SetActualSizePlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SetSizePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SetSizePlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ShortRotationPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ShortRotationPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SoundTransformPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SoundTransformPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/StageQualityPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/StageQualityPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ThrowPropsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ThrowPropsPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TintPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TintPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformAroundCenterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformAroundCenterPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformAroundPointPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformAroundPointPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformMatrixPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformMatrixPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TweenPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TweenPlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/VisiblePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/VisiblePlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/VolumePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/VolumePlugin.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/text/FlexSplitTextField.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/text/FlexSplitTextField.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/text/SplitTextField.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/text/SplitTextField.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/src/core/communication/utils/CoreCommunicationUtils.as" afterPath="$PROJECT_DIR$/GotoCore/src/core/communication/utils/CoreCommunicationUtils.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/ICoreBaseLogger.as" afterPath="$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/ICoreBaseLogger.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiButtonGroup.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiButtonGroup.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiImageLoader.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiImageLoader.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiList.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiList.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiScreenNavigator.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiScreenNavigator.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiScreenNavigatorItem.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiScreenNavigatorItem.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTextInput.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTextInput.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreMobileAndroid/src/core/filesystem/CoreFilesystemAndroid.as" afterPath="$PROJECT_DIR$/GotoCoreMobileAndroid/src/core/filesystem/CoreFilesystemAndroid.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreMobileIos/src/filesystem/CoreFilesystemIOS.as" afterPath="$PROJECT_DIR$/GotoCoreMobileIos/src/filesystem/CoreFilesystemIOS.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreMobileIos/src/utils/CoreIDevice.as" afterPath="$PROJECT_DIR$/GotoCoreMobileIos/src/utils/CoreIDevice.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreStarling/src/com/emibap/textureAtlas/DynamicAtlas.as" afterPath="$PROJECT_DIR$/GotoCoreStarling/src/com/emibap/textureAtlas/DynamicAtlas.as" />
+    </list>
+    <ignored path="GotoCoreAS3.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GotoCoreAS3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GuiApplication.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiTree.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTree.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding>
+                <element signature="e#80#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreScreenManager.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreScreenManager.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1830">
+              <caret line="125" column="57" lean-forward="false" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreFileSystem.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1230">
+              <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreFileSystemDesktop.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreBaseClass.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreBaseClassFactory.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="64" lean-forward="false" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiVideoPlayer.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiVideoPlayer.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreListener.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/notification/CoreListener.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flex 4 Component" />
+        <option value="ActionScript Interface" />
+        <option value="ActionScript Class with Supers" />
+        <option value="ActionScript Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pickerList</find>
+      <find>List</find>
+      <find>exist</find>
+      <find>read</find>
+      <find>CREATE</find>
+      <find>write</find>
+      <find>getSub</find>
+      <find>filter</find>
+      <find>getFiles</find>
+      <find>filename</find>
+      <find>GET_FILES</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="git" />
+        <option value="varadig" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GotoCore/src/core/notification/CoreListenerCollection.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/base/CoreCallback.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsoleAS.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/utils/CoreMobileUtils.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/net/CoreNet.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiIconItemRenderer.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiApplication.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiTabbedViewNavigatorApplication.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiCallout.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobileIos/src/core/mobile/CoreiOSNativePushNotification.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobileIos/src/core/mobile/CoreIOSNativeMail.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiViewNavigatorApplication.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiView.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiViewNAvigator.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiViewNavigator.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/plugins/mxml/spark/GuiToggleButton.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/manifest.xml" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiPanel.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/notification/CoreNotification.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/notification/CoreListener.as" />
+        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/plugins/as3/GuiNativeWindow.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/CoreFileSysytemMobile.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/filesystem/CoreFileSysytemMobile.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiPlayPauseToggleButton.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/CoreLogger.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/themes/GuiStyleNameFunctionTheme.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/core/application/viewstack/ViewStackApplication.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiViewStackApplication.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiStarlingBootstrapApplication.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiStackScreenNavigatorApplication.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiPickerList.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiDrawers.as" />
+        <option value="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ShakeEffect.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/service/CoreServiceContainer.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/service/CoreService.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseParameterHolder.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseSender.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/notification/CoreNotificationContainer.as" />
+        <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/filesystem/CoreFileSystemMobile.as" />
+        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as" />
+        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as" />
+        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as" />
+        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreDesktopUtils.as" />
+        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTree.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/utils/CoreUtils.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/utils/CoreGlobals.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/utils/toplevel/formatJSON.as" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="gotocore-src" pattern="file[GotoCore]:src//*" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GotoCoreAway3D" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16992188" />
+    <property name="project.structure.side.proportion" value="0.17213112" />
+    <property name="SearchEverywhereHistoryKey" value="GuiAppl&#9;null&#9;null&#10;CoreNet&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreDesktop/src/core/net/CoreNet.as&#10;CoreFile&#9;null&#9;null&#10;CoreFilesystem&#9;null&#9;null&#10;GuiSlider&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/plugins/mxml/spark/GuiSlider.as&#10;CoreFea&#9;null&#9;null&#10;CoreAsset&#9;null&#9;null&#10;GuiStackS&#9;null&#9;null&#10;GuiApplication&#9;null&#9;null&#10;GuiWin&#9;null&#9;null&#10;CoreFunction&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseFunctionWrapper.as&#10;CoreNoti&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreList&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreListener.as&#10;CoreNot&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreNotifi&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotificationContainer.as&#10;CoreBaseFunction&#9;null&#9;null&#10;CorStarlingcon&#9;null&#9;null&#10;CoreStar&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/context/CoreStarlingContext.as&#10;CoreConte&#9;null&#9;null&#10;CoreStarlinCon&#9;null&#9;null&#10;GuiLayoutGro&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as&#10;CoreCallback&#9;null&#9;null&#10;CoreBaseclass&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreBaseClas&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClass.as&#10;CoreBaseFa&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreCallba&#9;null&#9;null&#10;CoreBAseSpri&#9;null&#9;null&#10;CoreNotification&#9;null&#9;null&#10;CoreFeat&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;GuiLayout&#9;null&#9;null&#10;FeathersC&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;CoreStarlingU&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;GuiTetx&#9;null&#9;null&#10;CoreStarlingUt&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;CoreLoggerServer&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="63" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="65" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="709" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="63" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="65" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="709" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="prop_add_unversioned_files" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers" />
+      <recent name="$PROJECT_DIR$/GotoCore/src" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="core.utils.toplevel" />
+      <recent name="core.utils" />
+      <recent name="plugins.mxml.feathers" />
+      <recent name="core.application.viewstack" />
+      <recent name="core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GotoCoreMobile/src/core/filesystem" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="HEIGHT" value="0" />
+      <option name="WIDTH" value="0" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GotoCore" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="682c78c6-f85d-444a-8b73-3e3bc06b5a67" name="Default" comment="" />
+      <created>1464174618262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1464174618262</updated>
+      <workItem from="1464174627611" duration="910000" />
+      <workItem from="1464709494817" duration="553000" />
+      <workItem from="1464752386823" duration="5000" />
+      <workItem from="1464847586720" duration="2100000" />
+      <workItem from="1465022691868" duration="4125000" />
+      <workItem from="1465101101480" duration="1831000" />
+      <workItem from="1465377184491" duration="1148000" />
+      <workItem from="1465464952162" duration="371000" />
+      <workItem from="1465466125275" duration="369000" />
+      <workItem from="1465468224116" duration="484000" />
+      <workItem from="1465483126005" duration="526000" />
+      <workItem from="1465532466231" duration="51000" />
+      <workItem from="1465533066629" duration="928000" />
+      <workItem from="1465794798855" duration="3412000" />
+      <workItem from="1465974018465" duration="2679000" />
+      <workItem from="1466048457477" duration="3958000" />
+      <workItem from="1466133489747" duration="1278000" />
+      <workItem from="1466169375371" duration="2049000" />
+      <workItem from="1466309803959" duration="2615000" />
+      <workItem from="1466394010035" duration="1072000" />
+      <workItem from="1466485301168" duration="613000" />
+      <workItem from="1466490589991" duration="193000" />
+      <workItem from="1466569052541" duration="2970000" />
+      <workItem from="1466655263152" duration="3183000" />
+      <workItem from="1466683883801" duration="2184000" />
+      <workItem from="1466736516248" duration="1322000" />
+      <workItem from="1466770468513" duration="661000" />
+      <workItem from="1466826636769" duration="626000" />
+      <workItem from="1466845612300" duration="70000" />
+      <workItem from="1466926271801" duration="610000" />
+      <workItem from="1466998593249" duration="614000" />
+      <workItem from="1467032259120" duration="711000" />
+      <workItem from="1467174121731" duration="3081000" />
+      <workItem from="1467275887466" duration="635000" />
+      <workItem from="1467346821555" duration="1403000" />
+      <workItem from="1467434121426" duration="930000" />
+      <workItem from="1467649858959" duration="213000" />
+      <workItem from="1467695632475" duration="483000" />
+      <workItem from="1467718070514" duration="14000" />
+      <workItem from="1467732482255" duration="1063000" />
+      <workItem from="1467740130557" duration="597000" />
+      <workItem from="1467741338815" duration="574000" />
+      <workItem from="1467788619328" duration="99000" />
+      <workItem from="1467978507389" duration="850000" />
+      <workItem from="1468211179193" duration="888000" />
+      <workItem from="1468298602463" duration="4886000" />
+      <workItem from="1468386888477" duration="1928000" />
+      <workItem from="1468416596822" duration="1346000" />
+      <workItem from="1468467810183" duration="1857000" />
+      <workItem from="1468554900292" duration="2600000" />
+      <workItem from="1468639138546" duration="1278000" />
+      <workItem from="1468734908099" duration="362000" />
+      <workItem from="1468741236764" duration="447000" />
+      <workItem from="1468828538350" duration="1537000" />
+      <workItem from="1468914415815" duration="1958000" />
+      <workItem from="1469077258703" duration="3705000" />
+      <workItem from="1469441875269" duration="2849000" />
+      <workItem from="1469507594930" duration="8744000" />
+      <workItem from="1469630775345" duration="1103000" />
+      <workItem from="1469678678394" duration="81000" />
+      <workItem from="1469949245087" duration="793000" />
+      <workItem from="1469970915639" duration="135000" />
+      <workItem from="1470033797792" duration="3734000" />
+      <workItem from="1470056130186" duration="78000" />
+      <workItem from="1470056259462" duration="54000" />
+      <workItem from="1470057226637" duration="40000" />
+      <workItem from="1470057294955" duration="2265000" />
+      <workItem from="1470114050884" duration="145000" />
+      <workItem from="1470119813337" duration="58000" />
+      <workItem from="1470119880506" duration="30000" />
+      <workItem from="1470119918933" duration="33000" />
+      <workItem from="1470152540757" duration="650000" />
+      <workItem from="1470199283641" duration="8890000" />
+      <workItem from="1470218695919" duration="422000" />
+      <workItem from="1470219131572" duration="114000" />
+      <workItem from="1470220548551" duration="247000" />
+      <workItem from="1470231906023" duration="12607000" />
+      <workItem from="1470248109882" duration="1314000" />
+      <workItem from="1470281242594" duration="5345000" />
+      <workItem from="1470386196390" duration="26000" />
+      <workItem from="1470386602438" duration="1156000" />
+      <workItem from="1470387773979" duration="1643000" />
+      <workItem from="1470413611728" duration="1226000" />
+      <workItem from="1470590312627" duration="1333000" />
+      <workItem from="1470752334789" duration="658000" />
+      <workItem from="1470802922907" duration="1697000" />
+      <workItem from="1470836422181" duration="589000" />
+      <workItem from="1470928918449" duration="225000" />
+      <workItem from="1470929224129" duration="310000" />
+      <workItem from="1470929941625" duration="770000" />
+      <workItem from="1470930826271" duration="462000" />
+      <workItem from="1470979675889" duration="96000" />
+      <workItem from="1471245541236" duration="1448000" />
+      <workItem from="1471272458389" duration="156000" />
+      <workItem from="1471327815721" duration="599000" />
+      <workItem from="1471357081969" duration="188000" />
+      <workItem from="1471359809772" duration="149000" />
+      <workItem from="1471413916871" duration="580000" />
+      <workItem from="1471438648988" duration="599000" />
+      <workItem from="1471498975667" duration="23000" />
+      <workItem from="1471601988650" duration="678000" />
+      <workItem from="1471605917376" duration="153000" />
+      <workItem from="1471606284656" duration="789000" />
+      <workItem from="1471792822004" duration="612000" />
+      <workItem from="1471846390189" duration="52000" />
+      <workItem from="1471875245308" duration="950000" />
+      <workItem from="1474275780789" duration="2414000" />
+      <workItem from="1474365716971" duration="1643000" />
+      <workItem from="1474448522476" duration="1182000" />
+      <workItem from="1474562980942" duration="634000" />
+      <workItem from="1474900805623" duration="2248000" />
+      <workItem from="1474988954051" duration="631000" />
+      <workItem from="1475044930997" duration="1538000" />
+      <workItem from="1475050881641" duration="599000" />
+      <workItem from="1475121394171" duration="481000" />
+      <workItem from="1475346518018" duration="406000" />
+      <workItem from="1475385273442" duration="673000" />
+      <workItem from="1475482634218" duration="63000" />
+      <workItem from="1475511998052" duration="219000" />
+      <workItem from="1475555107604" duration="926000" />
+      <workItem from="1475662864568" duration="582000" />
+      <workItem from="1475748255588" duration="321000" />
+      <workItem from="1475754560310" duration="599000" />
+      <workItem from="1475815200092" duration="430000" />
+      <workItem from="1475999228489" duration="339000" />
+      <workItem from="1475999630106" duration="598000" />
+      <workItem from="1476940838229" duration="293000" />
+      <workItem from="1476971502199" duration="621000" />
+      <workItem from="1476972213280" duration="146000" />
+      <workItem from="1476979650659" duration="596000" />
+      <workItem from="1477022541405" duration="653000" />
+      <workItem from="1477024533044" duration="1182000" />
+      <workItem from="1477592306339" duration="652000" />
+      <workItem from="1477632456234" duration="2999000" />
+      <workItem from="1477641770427" duration="585000" />
+      <workItem from="1477728862157" duration="149000" />
+      <workItem from="1477730744865" duration="2015000" />
+      <workItem from="1477746026613" duration="1196000" />
+      <workItem from="1477796167306" duration="990000" />
+      <workItem from="1478172913424" duration="613000" />
+      <workItem from="1478247216902" duration="812000" />
+      <workItem from="1479458293151" duration="1060000" />
+      <workItem from="1479465448825" duration="15000" />
+      <workItem from="1479816654929" duration="2411000" />
+      <workItem from="1479824819779" duration="1570000" />
+      <workItem from="1480050761396" duration="1615000" />
+      <workItem from="1480144943496" duration="688000" />
+      <workItem from="1480227058835" duration="655000" />
+      <workItem from="1480875747522" duration="426000" />
+      <workItem from="1480933112574" duration="796000" />
+      <workItem from="1480942338131" duration="1741000" />
+      <workItem from="1481009341356" duration="1050000" />
+      <workItem from="1481033618927" duration="507000" />
+      <workItem from="1481100812106" duration="598000" />
+      <workItem from="1481191317892" duration="743000" />
+      <workItem from="1481194818695" duration="67000" />
+      <workItem from="1481736289368" duration="1919000" />
+      <workItem from="1481871479808" duration="1094000" />
+      <workItem from="1482081310510" duration="318000" />
+      <workItem from="1482164011775" duration="175000" />
+      <workItem from="1482164204668" duration="612000" />
+      <workItem from="1482316094196" duration="564000" />
+      <workItem from="1482936722941" duration="344000" />
+      <workItem from="1482994131442" duration="452000" />
+      <workItem from="1483019464038" duration="606000" />
+      <workItem from="1483088282604" duration="1702000" />
+      <workItem from="1483349140052" duration="1266000" />
+      <workItem from="1483351176306" duration="1496000" />
+      <workItem from="1483352923320" duration="1910000" />
+      <workItem from="1483367421834" duration="166000" />
+      <workItem from="1483367641916" duration="4049000" />
+      <workItem from="1483545179398" duration="80000" />
+      <workItem from="1483957537351" duration="589000" />
+      <workItem from="1484465332038" duration="2167000" />
+      <workItem from="1484483862702" duration="92000" />
+      <workItem from="1484569023410" duration="534000" />
+      <workItem from="1484644504511" duration="8000" />
+      <workItem from="1485187684850" duration="655000" />
+      <workItem from="1485242491099" duration="737000" />
+      <workItem from="1485254614093" duration="609000" />
+      <workItem from="1485271348971" duration="233000" />
+      <workItem from="1485534086149" duration="1244000" />
+      <workItem from="1485676002611" duration="1144000" />
+      <workItem from="1485691268655" duration="578000" />
+      <workItem from="1485770866815" duration="81000" />
+      <workItem from="1485868154717" duration="880000" />
+      <workItem from="1486367992362" duration="188000" />
+      <workItem from="1491545694912" duration="995000" />
+      <workItem from="1491581642325" duration="65000" />
+      <workItem from="1495702623018" duration="310000" />
+      <workItem from="1495711877743" duration="1081000" />
+      <workItem from="1495719026121" duration="593000" />
+      <workItem from="1496043266638" duration="511000" />
+      <workItem from="1498993361361" duration="977000" />
+      <workItem from="1500032682037" duration="763000" />
+      <workItem from="1505793770083" duration="1896000" />
+      <workItem from="1505908763982" duration="1651000" />
+      <workItem from="1506707903870" duration="2379000" />
+      <workItem from="1506750616069" duration="4073000" />
+      <workItem from="1506785806506" duration="753000" />
+      <workItem from="1507529591507" duration="2421000" />
+      <workItem from="1507833206245" duration="586000" />
+      <workItem from="1508320361693" duration="219000" />
+      <workItem from="1510232471031" duration="644000" />
+      <workItem from="1510842451998" duration="637000" />
+      <workItem from="1510843338222" duration="682000" />
+      <workItem from="1510844507227" duration="117000" />
+      <workItem from="1510844773786" duration="267000" />
+      <workItem from="1510845401243" duration="131000" />
+      <workItem from="1510845660481" duration="1502000" />
+      <workItem from="1511261826858" duration="1065000" />
+      <workItem from="1512981116187" duration="1255000" />
+      <workItem from="1512985136900" duration="60000" />
+      <workItem from="1512985220302" duration="826000" />
+      <workItem from="1512986848794" duration="4138000" />
+      <workItem from="1513071186083" duration="6439000" />
+      <workItem from="1513150796354" duration="469000" />
+      <workItem from="1513329000320" duration="637000" />
+      <workItem from="1515919461567" duration="182000" />
+      <workItem from="1516196155162" duration="5303000" />
+      <workItem from="1516280246910" duration="2279000" />
+      <workItem from="1516361242168" duration="690000" />
+      <workItem from="1516363669209" duration="1464000" />
+      <workItem from="1516432379001" duration="605000" />
+      <workItem from="1516527605306" duration="1900000" />
+      <workItem from="1517666944017" duration="2358000" />
+      <workItem from="1518093977894" duration="201000" />
+      <workItem from="1518094207451" duration="4168000" />
+      <workItem from="1518183599245" duration="4372000" />
+      <workItem from="1518242385380" duration="195000" />
+      <workItem from="1518246641906" duration="2347000" />
+      <workItem from="1518537691181" duration="2029000" />
+      <workItem from="1518590400370" duration="1388000" />
+      <workItem from="1518609189497" duration="586000" />
+      <workItem from="1518617474718" duration="569000" />
+      <workItem from="1518622011469" duration="9000" />
+      <workItem from="1519036400274" duration="780000" />
+      <workItem from="1519039735799" duration="1979000" />
+      <workItem from="1519108031064" duration="4022000" />
+      <workItem from="1519297200513" duration="51000" />
+      <workItem from="1520935896348" duration="1161000" />
+      <workItem from="1521010679052" duration="268000" />
+      <workItem from="1521437000116" duration="158000" />
+      <workItem from="1521467534855" duration="1687000" />
+      <workItem from="1521518298875" duration="696000" />
+      <workItem from="1521556723376" duration="2965000" />
+      <workItem from="1522150953111" duration="1094000" />
+      <workItem from="1522152625150" duration="3000" />
+      <workItem from="1525949194392" duration="729000" />
+      <workItem from="1525957328836" duration="224000" />
+      <workItem from="1525971489469" duration="1649000" />
+      <workItem from="1526114197312" duration="535000" />
+      <workItem from="1526200627439" duration="2041000" />
+      <workItem from="1526325952074" duration="1621000" />
+      <workItem from="1531809619055" duration="1026000" />
+      <workItem from="1537701188590" duration="252000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1467175415105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467175415105</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1470233057109</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1470233057109</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial git commit hell yes\m/">
+      <created>1470387409961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1470387409961</updated>
+    </task>
+    <task id="LOCAL-00004" summary="some import change">
+      <created>1470397525369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1470397525369</updated>
+    </task>
+    <task id="LOCAL-00005" summary="some import change">
+      <created>1474563008153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1474563008153</updated>
+    </task>
+    <task id="LOCAL-00006" summary="some import change">
+      <created>1479912628243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1479912628243</updated>
+    </task>
+    <task id="LOCAL-00007" summary="some import change">
+      <created>1484465680805</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1484465680805</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".">
+      <created>1498993386697</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1498993386697</updated>
+    </task>
+    <task id="LOCAL-00009" summary=".">
+      <created>1511261846377</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1511261846377</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".">
+      <created>1537701233594</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1537701233594</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="306043000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="initial git commit hell yes\m/" />
+    <MESSAGE value="some import change" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="64" lean-forward="false" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiVideoPlayer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/notification/CoreListener.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="67" lean-forward="true" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiPlayPauseToggleButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiStackScreenNavigatorApplication.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/themes/GuiStyleNameFunctionTheme.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiStarlingBootstrapApplication.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiWebView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/base/CoreBaseLogger.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../_SDK_/osx/air-27_feathers-3.3.0/frameworks/libs/feathers.swc!/library.swf" />
+    <entry file="file://$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ShakeEffect.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/CoreLogger.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiPickerList.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreMobile/extensions.xml" />
+    <entry file="file://$PROJECT_DIR$/GotoCoreMobile/src/core/utils/CoreMobileUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/CoreLoggerDebug.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiDrawers.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiCallout.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/service/CoreServiceContainer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseFunctionWrapper.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Screen Shot 2017-12-16 at 15.14.48.png" />
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/notification/CoreNotification.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/interfaces/IExecutable.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/service/CoreService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseParameterHolder.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseSender.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/notification/CoreNotificationContainer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreMobile/src/core/filesystem/CoreFileSystemMobile.as" />
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreDesktopUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/context/CoreContext.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/utils/CoreGlobals.as" />
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/utils/toplevel/formatJSON.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/utils/CoreUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="71" column="58" lean-forward="false" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroupGroupedListItemRenderer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/controls/G2CFeatherToggleButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTree.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#80#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="64" lean-forward="false" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiVideoPlayer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/notification/CoreListener.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreScreenManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="125" column="57" lean-forward="false" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>starling-src</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17213112" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>air28-feathers3.4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17213112" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GotoCoreStarling|GotoCoreStarling</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17213112" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17213112" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>gotocore-src</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="gotocore-src" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="GotoCoreGame">
+    <configurations>
+      <configuration name="GotoCoreGame" pure-as="true" output-type="Library" output-file="GotoCoreGame.swc" output-folder="$MODULE_DIR$/../bin">
+        <dependencies target-player="20.0">
+          <entries>
+            <entry library-id="6e729520-9225-4dbb-a43e-ce58b6eb2284">
+              <dependency linkage="Include" />
+            </entry>
+            <entry library-id="4c3a8769-6b4d-4edf-90a1-cd734e737965">
+              <dependency linkage="Include" />
+            </entry>
+            <entry module-name="GotoCore" build-configuration-name="GotoCore">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="air20_flex4.15.0" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air20_flex4.15.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="GotoFramework" level="application" />
+    <orderEntry type="library" exported="" name="GotoCoreGame1" level="application" />
+    <orderEntry type="library" exported="" name="GotoCore1" level="application" />
+    <orderEntry type="library" exported="" name="DragonBones" level="application" />
+    <orderEntry type="library" exported="" name="CEV3-1-8-Starling-Feathers-Nape" level="application" />
+    <orderEntry type="library" exported="" name="StarlingExtension" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6e729520-9225-4dbb-a43e-ce58b6eb2284" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="4c3a8769-6b4d-4edf-90a1-cd734e737965" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../StarlingExtensions/bin/StarlingExtensions.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="GotoCore" exported="" />
+  </component>
+</module>

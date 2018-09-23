@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GotoCore/GotoCore.iml" filepath="$PROJECT_DIR$/GotoCore/GotoCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GotoCoreAway3D/GotoCoreAway3D.iml" filepath="$PROJECT_DIR$/GotoCoreAway3D/GotoCoreAway3D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GotoCoreDesktop/GotoCoreDesktop.iml" filepath="$PROJECT_DIR$/GotoCoreDesktop/GotoCoreDesktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GotoCoreFeathersUI/GotoCoreFeathersUI.iml" filepath="$PROJECT_DIR$/GotoCoreFeathersUI/GotoCoreFeathersUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GotoCoreMobile/GotoCoreMobile.iml" filepath="$PROJECT_DIR$/GotoCoreMobile/GotoCoreMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GotoCoreStarling/GotoCoreStarling.iml" filepath="$PROJECT_DIR$/GotoCoreStarling/GotoCoreStarling.iml" />
+    </modules>
+  </component>
+</project>
