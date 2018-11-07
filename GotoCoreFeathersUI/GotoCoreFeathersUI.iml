@@ -3,7 +3,7 @@
   <component name="FlexBuildConfigurationManager" active="GotoCoreFeathersUI">
     <configurations>
       <configuration name="GotoCoreFeathersUI" output-type="Library" output-file="GotoCoreFeathersUI.swc" output-folder="$MODULE_DIR$/../bin">
-        <dependencies target-player="28.0">
+        <dependencies target-player="30.0">
           <entries>
             <entry module-name="GotoCore" build-configuration-name="GotoCore">
               <dependency linkage="Merged" />
@@ -12,7 +12,7 @@
               <dependency linkage="Merged" />
             </entry>
           </entries>
-          <sdk name="air28-feathers3.4.0" />
+          <sdk name="air30-feathers3.5.0" />
         </dependencies>
         <compiler-options>
           <map>
@@ -31,7 +31,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="air28-feathers3.4.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="air30-feathers3.5.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="GotoCore" exported="" />
     <orderEntry type="module" module-name="GotoCoreStarling" exported="" />

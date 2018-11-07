@@ -40,10 +40,9 @@ public class CoreLoggerFile extends CoreBaseLogger {
             if (File.permissionStatus != PermissionStatus.GRANTED) {
                 this.file.addEventListener(PermissionEvent.PERMISSION_STATUS, function (event:PermissionEvent):void {
                     if (event.status == PermissionStatus.GRANTED) {
+                        trace("CoreLoggerFile::permission status:"+event.status);
                         this.stream = new FileStream();
-                        this.stream.open(file, FileMode.APPEND);
-
-
+                        this.stream.openAsync(file, FileMode.APPEND);
                     }
                 });
 
@@ -93,7 +92,13 @@ public class CoreLoggerFile extends CoreBaseLogger {
     override protected function addLogEntry(message:String):void {
         if (!this.stream)
             return;
+        try{
+
         this.stream.writeUTFBytes(this.createEntryFrom(message));
+        }catch(error:Error){
+            trace(error);
+
+        }
     }
 
     private function exitingHandler(event:Event):void {

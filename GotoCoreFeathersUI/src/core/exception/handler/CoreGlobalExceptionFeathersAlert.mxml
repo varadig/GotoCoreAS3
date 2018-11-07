@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<feathers:GuiPanel xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:feathers="plugins.mxml.feathers.*"
+                   xmlns:layout="feathers.layout.*" implements="core.logger.interfaces.IGlobalExceptionHandler"
+                   maxHeight="{Starling.current.stage.stageHeight}">
+
+    <fx:Script><![CDATA[
+        import feathers.core.PopUpManager;
+
+        import starling.core.Starling;
+
+        [Bindable]
+        public var buttonLabel:String = "OK";
+        [Bindable]
+        public var uniq:Boolean = true;
+
+        [Bindable]
+        private var message:String;
+
+
+        public function handle(error:Object):void {
+            if (error is Error) {
+                var errorObj:Error = error as Error;
+                this.title = errorObj.message + " " + errorObj.message;
+                this.message = errorObj.getStackTrace();
+
+                if (this.uniq && PopUpManager.isPopUp(this))
+                    PopUpManager.removePopUp(this);
+
+                PopUpManager.addPopUp(this) as CoreGlobalExceptionFeathersAlert;
+            }
+
+        }
+
+        private function guiButton1_triggeredHandler(event:Event):void {
+            PopUpManager.removePopUp(this);
+        }
+        ]]></fx:Script>
+    <feathers:layout>
+        <layout:VerticalLayout verticalAlign="top" horizontalAlign="justify"/>
+    </feathers:layout>
+    <feathers:GuiScrollContainer>
+        <feathers:layout>
+            <layout:AnchorLayout/>
+        </feathers:layout>
+        <feathers:layoutData>
+
+            <layout:VerticalLayoutData percentHeight="100"/>
+        </feathers:layoutData>
+        <feathers:GuiLabel wordWrap="true" text="{this.message}">
+            <feathers:layoutData>
+                <layout:AnchorLayoutData percentHeight="100" percentWidth="100"/>
+            </feathers:layoutData>
+        </feathers:GuiLabel>
+    </feathers:GuiScrollContainer>
+    <feathers:GuiButton triggered="guiButton1_triggeredHandler(event)" label="{this.buttonLabel}"/>
+</feathers:GuiPanel>

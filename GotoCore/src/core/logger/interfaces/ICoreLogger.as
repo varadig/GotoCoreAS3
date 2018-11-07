@@ -2,8 +2,8 @@
 package core.logger.interfaces 
 {
 
-	public interface ICoreLogger 
+	public interface ICoreLogger
 	{
-		function log (message : Object ) : void
+		function addLog (...messages ) : void
 	}
 }
