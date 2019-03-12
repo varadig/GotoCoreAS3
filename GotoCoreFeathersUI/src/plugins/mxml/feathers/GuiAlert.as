@@ -1,46 +1,28 @@
 /**
- * Created by varadig on 10/31/15.
+ * Created by varadig on 13/07/16.
  */
 package plugins.mxml.feathers {
 import core.base.CoreBaseClassFactory;
 import core.base.CoreCallback;
 import core.context.CoreContext;
-import core.logger.CoreLoggerBrowserConsole;
-import core.logger.CoreLoggerDebug;
-import core.logger.base.CoreBaseLogger;
-import core.logger.interfaces.ICoreLogger;
 import core.service.CoreServiceContainer;
-import core.utils.CoreUtils;
 
-import feathers.core.Application;
+import feathers.controls.Alert;
 import feathers.skins.IStyleProvider;
 
-import flash.system.Capabilities;
-
-public class GuiApplication extends Application {
-    public namespace gui_core_feathersui = "http://www.go2design.hu/gui/core/feathersui";
+public class GuiAlert extends Alert {
     public var sc:CoreServiceContainer;
-    public var context:CoreContext;
-    public var callbacks:Array = [];
     public static var globalStyleProvider:IStyleProvider;
 
 
-    protected var loggers:Vector.<ICoreLogger>;
+    public var context:CoreContext;
 
 
-    override protected function initialize():void {
-        super.initialize();
-        this.loggers = new <ICoreLogger>[];
-        if (Capabilities.isDebugger) {
-            this.loggers.push(new CoreLoggerDebug());
-            if (CoreUtils.isBrowser)
-                this.loggers.push(new CoreLoggerBrowserConsole());
-        }
-    }
+    public var callbacks:Array = [];
 
-    public function GuiApplication() {
+
+    public function GuiAlert() {
         CoreBaseClassFactory.construct(this);
-
     }
 
     public function serviceAddCallback(params:Array):void {
@@ -54,7 +36,6 @@ public class GuiApplication extends Application {
     public function serviceRemoveCallback(params:Array):void {
         CoreBaseClassFactory.serviceRemoveCallback(this, params);
     }
-
     public function serviceRemoveCallbacks(params:Array):void {
         CoreBaseClassFactory.serviceRemoveCallbacks(this, params);
     }

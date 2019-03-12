@@ -21,7 +21,7 @@ public class CoreLoggerFile extends CoreBaseLogger {
         this.file = file;
         this.handleFilePermission();
 
-        NativeApplication.nativeApplication.addEventListener(Event.EXITING, exitingHandler);
+//        NativeApplication.nativeApplication.addEventListener(Event.EXITING, exitingHandler);
 
         this.sc.registerService(ARCHIVE, this.serviceArchiveLogFile);
         this.sc.registerService(READ, this.serviceReadLogFile);

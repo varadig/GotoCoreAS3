@@ -26,6 +26,7 @@ public class CoreGlobalExceptionHandler extends CoreBaseClass {
     {
         loaderInfo.uncaughtErrorEvents.addEventListener(UncaughtErrorEvent.UNCAUGHT_ERROR,
                 uncaughtErrorHandler);
+
     }
 
     private function uncaughtErrorHandler(event:UncaughtErrorEvent):void

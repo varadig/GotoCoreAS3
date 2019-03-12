@@ -2,140 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="682c78c6-f85d-444a-8b73-3e3bc06b5a67" name="Default" comment=".">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/BlitMask.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/BlitMask.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/FlexBlitMask.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/FlexBlitMask.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/OverwriteManager.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/OverwriteManager.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TimelineLite.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TimelineLite.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TimelineMax.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TimelineMax.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenAlign.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenAlign.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenLite.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenLite.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenMax.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenMax.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenNano.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenNano.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenProxy.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenProxy.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenProxy3D.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/TweenProxy3D.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/changelog.txt" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/changelog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/PropTween.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/PropTween.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/SimpleTimeline.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/SimpleTimeline.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/TweenCore.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/core/TweenCore.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/data/TweenLiteVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/data/TweenLiteVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/data/TweenMaxVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/data/TweenMaxVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Back.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Back.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Bounce.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Bounce.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Circ.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Circ.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Cubic.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Cubic.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/CustomEase.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/CustomEase.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/EaseLookup.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/EaseLookup.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Elastic.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Elastic.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Expo.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Expo.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/FastEase.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/FastEase.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Linear.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Linear.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quad.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quad.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quart.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quart.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quint.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Quint.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/RoughEase.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/RoughEase.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Sine.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Sine.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/SteppedEase.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/SteppedEase.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Strong.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/Strong.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/easing_readme.txt" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/easing/easing_readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/events/LoaderEvent.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/events/LoaderEvent.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/events/TweenEvent.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/events/TweenEvent.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/AlignMode.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/AlignMode.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/AutoFitArea.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/AutoFitArea.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/DynamicPinPoint.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/DynamicPinPoint.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/LiquidArea.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/LiquidArea.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/LiquidStage.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/LiquidStage.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/PinPoint.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/PinPoint.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/ScaleMode.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/ScaleMode.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/core/LiquidData.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/layout/core/LiquidData.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/BinaryDataLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/BinaryDataLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/CSSLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/CSSLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/DataLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/DataLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/ImageLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/ImageLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/LoaderMax.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/LoaderMax.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/LoaderStatus.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/LoaderStatus.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/MP3Loader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/MP3Loader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/SWFLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/SWFLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/SelfLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/SelfLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/VideoLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/VideoLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/XMLLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/XMLLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/changelog.txt" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/changelog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/DisplayObjectLoader.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/DisplayObjectLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/LoaderCore.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/LoaderCore.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/LoaderItem.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/core/LoaderItem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/CSSLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/CSSLoaderVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/DataLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/DataLoaderVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/ImageLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/ImageLoaderVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/LoaderMaxVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/LoaderMaxVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/MP3LoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/MP3LoaderVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/SWFLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/SWFLoaderVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/VideoLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/VideoLoaderVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/XMLLoaderVars.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/data/XMLLoaderVars.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/display/ContentDisplay.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/display/ContentDisplay.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/display/FlexContentDisplay.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/loading/display/FlexContentDisplay.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/CirclePath2D.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/CirclePath2D.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/Direction.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/Direction.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/LinePath2D.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/LinePath2D.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/MotionPath.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/MotionPath.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/PathFollower.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/PathFollower.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/RectanglePath2D.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/motionPaths/RectanglePath2D.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/AutoAlphaPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/AutoAlphaPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BevelFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BevelFilterPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BezierPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BezierPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BezierThroughPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BezierThroughPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BlurFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/BlurFilterPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/CacheAsBitmapPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/CacheAsBitmapPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/CirclePath2DPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/CirclePath2DPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ColorMatrixFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ColorMatrixFilterPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ColorTransformPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ColorTransformPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/DropShadowFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/DropShadowFilterPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/DynamicPropsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/DynamicPropsPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/EndArrayPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/EndArrayPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/EndVectorPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/EndVectorPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FilterPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameBackwardPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameBackwardPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameForwardPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameForwardPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameLabelPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FrameLabelPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FramePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/FramePlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/GlowFilterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/GlowFilterPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/HexColorsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/HexColorsPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/LiquidPositionPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/LiquidPositionPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/MotionBlurPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/MotionBlurPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/Physics2DPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/Physics2DPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/PhysicsPropsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/PhysicsPropsPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/QuaternionsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/QuaternionsPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/RemoveTintPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/RemoveTintPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/RoundPropsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/RoundPropsPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ScalePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ScalePlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ScrollRectPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ScrollRectPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SetActualSizePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SetActualSizePlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SetSizePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SetSizePlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ShortRotationPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ShortRotationPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SoundTransformPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/SoundTransformPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/StageQualityPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/StageQualityPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ThrowPropsPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ThrowPropsPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TintPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TintPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformAroundCenterPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformAroundCenterPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformAroundPointPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformAroundPointPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformMatrixPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TransformMatrixPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TweenPlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/TweenPlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/VisiblePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/VisiblePlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/VolumePlugin.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/VolumePlugin.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/text/FlexSplitTextField.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/text/FlexSplitTextField.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/text/SplitTextField.as" afterPath="$PROJECT_DIR$/GotoCore/extsrc/com/greensock/text/SplitTextField.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/src/core/communication/utils/CoreCommunicationUtils.as" afterPath="$PROJECT_DIR$/GotoCore/src/core/communication/utils/CoreCommunicationUtils.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/ICoreBaseLogger.as" afterPath="$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/ICoreBaseLogger.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiButtonGroup.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiButtonGroup.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiImageLoader.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiImageLoader.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiList.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiList.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiScreenNavigator.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiScreenNavigator.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiScreenNavigatorItem.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiScreenNavigatorItem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTextInput.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTextInput.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreMobileAndroid/src/core/filesystem/CoreFilesystemAndroid.as" afterPath="$PROJECT_DIR$/GotoCoreMobileAndroid/src/core/filesystem/CoreFilesystemAndroid.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreMobileIos/src/filesystem/CoreFilesystemIOS.as" afterPath="$PROJECT_DIR$/GotoCoreMobileIos/src/filesystem/CoreFilesystemIOS.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreMobileIos/src/utils/CoreIDevice.as" afterPath="$PROJECT_DIR$/GotoCoreMobileIos/src/utils/CoreIDevice.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreStarling/src/com/emibap/textureAtlas/DynamicAtlas.as" afterPath="$PROJECT_DIR$/GotoCoreStarling/src/com/emibap/textureAtlas/DynamicAtlas.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiAlert.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/GotoCore.swc" afterPath="$PROJECT_DIR$/bin/GotoCore.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/GotoCoreAway3D.swc" afterPath="$PROJECT_DIR$/bin/GotoCoreAway3D.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/GotoCoreDesktop.swc" afterPath="$PROJECT_DIR$/bin/GotoCoreDesktop.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/GotoCoreFeathersUI.swc" afterPath="$PROJECT_DIR$/bin/GotoCoreFeathersUI.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/GotoCoreMobile.swc" afterPath="$PROJECT_DIR$/bin/GotoCoreMobile.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/GotoCoreStarling.swc" afterPath="$PROJECT_DIR$/bin/GotoCoreStarling.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/GotoCore.iml" afterPath="$PROJECT_DIR$/GotoCore/GotoCore.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as" afterPath="$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as" afterPath="$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GotoCoreStarling/GotoCoreStarling.iml" afterPath="$PROJECT_DIR$/GotoCoreStarling/GotoCoreStarling.iml" />
     </list>
     <ignored path="GotoCoreAS3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,124 +29,207 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="GotoCoreAS3" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GuiApplication.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuiTree.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTree.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding>
-                <element signature="e#80#118#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreScreenManager.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreScreenManager.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="125" column="57" lean-forward="false" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreFileSystem.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreFileSystemDesktop.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreBaseClass.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreBaseClassFactory.as" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="64" lean-forward="false" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuiVideoPlayer.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiVideoPlayer.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="52" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreListener.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/notification/CoreListener.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="CoreGlobalExceptionLogHandler.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/handler/CoreGlobalExceptionLogHandler.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#33#64#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GuiApplication.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GuiHeader.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiHeader.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GuiAlert.as" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiAlert.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="735">
+                  <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#75#113#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreGlobalExceptionFeathersAlert.mxml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/core/exception/handler/CoreGlobalExceptionFeathersAlert.mxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="840">
+                  <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IGlobalExceptionHandler.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/IGlobalExceptionHandler.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ICoreLogger.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/ICoreLogger.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="CoreGlobalExceptionFeathersAlert.mxml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/core/exception/handler/CoreGlobalExceptionFeathersAlert.mxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreLoggerFile.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1425">
+                  <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreCallback.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreCallback.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreBaseClassFactory.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="600">
+                  <caret line="43" column="83" lean-forward="false" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreScreenManager.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreScreenManager.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2040">
+                  <caret line="139" column="18" lean-forward="false" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreLogger.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/CoreLogger.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreBaseClass.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Log.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/utils/Log.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreListener.as" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/notification/CoreListener.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoreGlobalExceptionHandler.as" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="570">
+                  <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Flex 4 Component" />
+        <option value="ActionScript Class" />
         <option value="ActionScript Interface" />
         <option value="ActionScript Class with Supers" />
-        <option value="ActionScript Class" />
+        <option value="Flex 4 Component" />
       </list>
     </option>
   </component>
@@ -304,20 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GotoCore/src/core/notification/CoreListenerCollection.as" />
-        <option value="$PROJECT_DIR$/GotoCore/src/core/base/CoreCallback.as" />
-        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsoleAS.as" />
-        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/utils/CoreMobileUtils.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/net/CoreNet.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiIconItemRenderer.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiApplication.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiTabbedViewNavigatorApplication.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiCallout.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobileIos/src/core/mobile/CoreiOSNativePushNotification.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobileIos/src/core/mobile/CoreIOSNativeMail.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiViewNavigatorApplication.as" />
-        <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiView.as" />
         <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiViewNAvigator.as" />
         <option value="$PROJECT_DIR$/GotoCoreMobile/src/plugins/mxml/spark/GuiViewNavigator.as" />
         <option value="$PROJECT_DIR$/GotoCore/src/plugins/mxml/spark/GuiToggleButton.as" />
@@ -330,7 +278,6 @@
         <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/CoreFileSysytemMobile.as" />
         <option value="$PROJECT_DIR$/GotoCoreMobile/src/core/filesystem/CoreFileSysytemMobile.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiPlayPauseToggleButton.as" />
-        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/CoreLogger.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/themes/GuiStyleNameFunctionTheme.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/core/application/viewstack/ViewStackApplication.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiViewStackApplication.as" />
@@ -349,12 +296,27 @@
         <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as" />
         <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as" />
         <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreDesktopUtils.as" />
-        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTree.as" />
         <option value="$PROJECT_DIR$/GotoCore/src/core/utils/CoreUtils.as" />
         <option value="$PROJECT_DIR$/GotoCore/src/core/utils/CoreGlobals.as" />
         <option value="$PROJECT_DIR$/GotoCore/src/core/utils/toplevel/formatJSON.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/CoreLoggerDebug.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/CoreMXMLLogger.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/IGlobalExceptionLogger.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/CoreGlobalExceptionLogger.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/handler.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/CoreLogger.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/ICoreLogger.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/base/CoreBaseLogger.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/logger/exception/CoreGlobalExceptionHandler.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/exception/handler/CoreGlobalExceptionFeathersAlert.mxml" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/exception/handler/CoreGlobalExceptionLogHandler.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/core/exception/handler/CoreGlobalExceptionFeathersAlert.mxml" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as" />
+        <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiAlert.as" />
+        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as" />
       </list>
     </option>
   </component>
@@ -374,7 +336,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -434,90 +396,240 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCoreAway3D" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCoreAS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GotoCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="63" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="65" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="709" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="63" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="65" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="709" />
+    <property name="SearchEverywhereHistoryKey" value="GuiAppl&#9;null&#9;null&#10;CoreNet&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreDesktop/src/core/net/CoreNet.as&#10;CoreFile&#9;null&#9;null&#10;CoreFilesystem&#9;null&#9;null&#10;GuiSlider&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/plugins/mxml/spark/GuiSlider.as&#10;CoreFea&#9;null&#9;null&#10;CoreAsset&#9;null&#9;null&#10;GuiStackS&#9;null&#9;null&#10;GuiApplication&#9;null&#9;null&#10;GuiWin&#9;null&#9;null&#10;CoreFunction&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseFunctionWrapper.as&#10;CoreNoti&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreList&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreListener.as&#10;CoreNot&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreNotifi&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotificationContainer.as&#10;CoreBaseFunction&#9;null&#9;null&#10;CorStarlingcon&#9;null&#9;null&#10;CoreStar&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/context/CoreStarlingContext.as&#10;CoreConte&#9;null&#9;null&#10;CoreStarlinCon&#9;null&#9;null&#10;GuiLayoutGro&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as&#10;CoreCallback&#9;null&#9;null&#10;CoreBaseclass&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreBaseClas&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClass.as&#10;CoreBaseFa&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreCallba&#9;null&#9;null&#10;CoreBAseSpri&#9;null&#9;null&#10;CoreNotification&#9;null&#9;null&#10;CoreFeat&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;GuiLayout&#9;null&#9;null&#10;FeathersC&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;CoreStarlingU&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;GuiTetx&#9;null&#9;null&#10;CoreStarlingUt&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;CoreLoggerServer&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/GotoCoreFeathersUI/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16992188" />
     <property name="project.structure.side.proportion" value="0.17213112" />
-    <property name="SearchEverywhereHistoryKey" value="GuiAppl&#9;null&#9;null&#10;CoreNet&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreDesktop/src/core/net/CoreNet.as&#10;CoreFile&#9;null&#9;null&#10;CoreFilesystem&#9;null&#9;null&#10;GuiSlider&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/plugins/mxml/spark/GuiSlider.as&#10;CoreFea&#9;null&#9;null&#10;CoreAsset&#9;null&#9;null&#10;GuiStackS&#9;null&#9;null&#10;GuiApplication&#9;null&#9;null&#10;GuiWin&#9;null&#9;null&#10;CoreFunction&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseFunctionWrapper.as&#10;CoreNoti&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreList&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreListener.as&#10;CoreNot&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreNotifi&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotificationContainer.as&#10;CoreBaseFunction&#9;null&#9;null&#10;CorStarlingcon&#9;null&#9;null&#10;CoreStar&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/context/CoreStarlingContext.as&#10;CoreConte&#9;null&#9;null&#10;CoreStarlinCon&#9;null&#9;null&#10;GuiLayoutGro&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as&#10;CoreCallback&#9;null&#9;null&#10;CoreBaseclass&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreBaseClas&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClass.as&#10;CoreBaseFa&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreCallba&#9;null&#9;null&#10;CoreBAseSpri&#9;null&#9;null&#10;CoreNotification&#9;null&#9;null&#10;CoreFeat&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;GuiLayout&#9;null&#9;null&#10;FeathersC&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;CoreStarlingU&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;GuiTetx&#9;null&#9;null&#10;CoreStarlingUt&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;CoreLoggerServer&#9;null&#9;null" />
+    <property name="prop_add_unversioned_files" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="63" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="65" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="67" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="709" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="63" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="65" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="67" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="709" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="prop_add_unversioned_files" value="true" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers" />
-      <recent name="$PROJECT_DIR$/GotoCore/src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GotoCore/src/core/logger/exception" />
+      <recent name="$PROJECT_DIR$/GotoCoreMobile/src/core/filesystem" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="core.utils.toplevel" />
-      <recent name="core.utils" />
-      <recent name="plugins.mxml.feathers" />
-      <recent name="core.application.viewstack" />
+      <recent name="core.exception.handler" />
+      <recent name="core.logger" />
+      <recent name="core.logger.interfaces" />
       <recent name="core" />
+      <recent name="core.utils.toplevel" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GotoCoreMobile/src/core/filesystem" />
+    <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
+      <recent name="core.exception.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers" />
+      <recent name="$PROJECT_DIR$/GotoCoreStarling/extsrc/starling/extensions" />
+      <recent name="$PROJECT_DIR$/GotoCore/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -533,6 +645,55 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -557,26 +718,40 @@
       </option>
       <envs />
       <patterns />
+      <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="HEIGHT" value="0" />
-      <option name="WIDTH" value="0" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
+      <properties />
+      <listeners />
+      <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -586,15 +761,7 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
+      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -615,18 +782,7 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GotoCore" />
-      <envs />
+      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -654,6 +810,17 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
@@ -682,71 +849,6 @@
       <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
       <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
       <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
   </component>
@@ -1018,7 +1120,57 @@
       <workItem from="1526200627439" duration="2041000" />
       <workItem from="1526325952074" duration="1621000" />
       <workItem from="1531809619055" duration="1026000" />
-      <workItem from="1537701188590" duration="252000" />
+      <workItem from="1537701188590" duration="3108000" />
+      <workItem from="1537853290435" duration="231000" />
+      <workItem from="1538571453915" duration="1663000" />
+      <workItem from="1538630334334" duration="1235000" />
+      <workItem from="1538673795801" duration="589000" />
+      <workItem from="1538723934389" duration="578000" />
+      <workItem from="1538725238430" duration="1196000" />
+      <workItem from="1538808336580" duration="634000" />
+      <workItem from="1538832572991" duration="153000" />
+      <workItem from="1538833018799" duration="152000" />
+      <workItem from="1538833313382" duration="215000" />
+      <workItem from="1538833765102" duration="504000" />
+      <workItem from="1538835663709" duration="287000" />
+      <workItem from="1538835993814" duration="24000" />
+      <workItem from="1539008497046" duration="994000" />
+      <workItem from="1539015224864" duration="996000" />
+      <workItem from="1539065338340" duration="642000" />
+      <workItem from="1539084109324" duration="54000" />
+      <workItem from="1541474467466" duration="674000" />
+      <workItem from="1541495666747" duration="5831000" />
+      <workItem from="1541565013828" duration="843000" />
+      <workItem from="1541663705495" duration="342000" />
+      <workItem from="1541692191251" duration="1825000" />
+      <workItem from="1541696212574" duration="616000" />
+      <workItem from="1541744430197" duration="2627000" />
+      <workItem from="1541771762522" duration="586000" />
+      <workItem from="1541773618803" duration="1196000" />
+      <workItem from="1541780315773" duration="1272000" />
+      <workItem from="1541785532223" duration="603000" />
+      <workItem from="1541791937578" duration="135000" />
+      <workItem from="1541831731691" duration="604000" />
+      <workItem from="1542196737193" duration="4422000" />
+      <workItem from="1542268562999" duration="869000" />
+      <workItem from="1542271147917" duration="1086000" />
+      <workItem from="1542292108533" duration="346000" />
+      <workItem from="1542619526987" duration="620000" />
+      <workItem from="1542657870438" duration="588000" />
+      <workItem from="1542695703293" duration="1495000" />
+      <workItem from="1542783617202" duration="696000" />
+      <workItem from="1542795276403" duration="875000" />
+      <workItem from="1542824147921" duration="407000" />
+      <workItem from="1542879856668" duration="365000" />
+      <workItem from="1542886243141" duration="86000" />
+      <workItem from="1544623899166" duration="657000" />
+      <workItem from="1548520887777" duration="483000" />
+      <workItem from="1548566235625" duration="623000" />
+      <workItem from="1549123533333" duration="582000" />
+      <workItem from="1550157366897" duration="16000" />
+      <workItem from="1550159051106" duration="663000" />
+      <workItem from="1550222218848" duration="703000" />
+      <workItem from="1550294172366" duration="1715000" />
     </task>
     <task id="LOCAL-00001">
       <created>1467175415105</created>
@@ -1090,39 +1242,57 @@
       <option name="project" value="LOCAL" />
       <updated>1537701233594</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Global exception handling added">
+      <created>1541565101692</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541565101692</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306043000" />
+    <option name="totallyTimeSpent" value="353497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30298188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1141,7 +1311,8 @@
     <MESSAGE value="initial git commit hell yes\m/" />
     <MESSAGE value="some import change" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Global exception handling added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Global exception handling added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1154,118 +1325,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        <state relative-caret-position="195">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="64" lean-forward="false" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiVideoPlayer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/notification/CoreListener.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="44" column="67" lean-forward="true" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiPlayPauseToggleButton.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiStackScreenNavigatorApplication.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/themes/GuiStyleNameFunctionTheme.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiStarlingBootstrapApplication.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiWebView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/base/CoreBaseLogger.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../_SDK_/osx/air-27_feathers-3.3.0/frameworks/libs/feathers.swc!/library.swf" />
-    <entry file="file://$PROJECT_DIR$/GotoCore/extsrc/com/greensock/plugins/ShakeEffect.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/CoreLogger.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1281,13 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/CoreLoggerDebug.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1370,13 +1427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1399,13 +1449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/utils/CoreUtils.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="71" column="58" lean-forward="false" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroupGroupedListItemRenderer.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1413,28 +1456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/controls/G2CFeatherToggleButton.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTree.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#80#118#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1442,7 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="64" lean-forward="false" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,6 +1474,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="52" column="0" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseMovieClip.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseSprite.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/utils/CoreUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/CoreMXMLLogger.as" />
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/test/LoggerTest.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/handler.as" />
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/ICoreLogger.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/interfaces/IGlobalExceptionHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/CoreLoggerDebug.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/base/CoreBaseLogger.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/handler/CoreGlobalExceptionLogHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/core/exception/handler/CoreGlobalExceptionFeathersAlert.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiHeader.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreCallback.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="43" column="83" lean-forward="false" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreScreenManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="139" column="18" lean-forward="false" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/CoreLogger.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/utils/Log.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1464,43 +1653,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/utils/CoreScreenManager.as">
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="125" column="57" lean-forward="false" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="57" />
+        <state relative-caret-position="570">
+          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiAlert.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClassFactory.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="735">
+          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="e#75#113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

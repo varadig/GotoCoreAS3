@@ -3,13 +3,13 @@
   <component name="FlexBuildConfigurationManager" active="GotoCore">
     <configurations>
       <configuration name="GotoCore" output-type="Library" output-file="GotoCore.swc" output-folder="$MODULE_DIR$/../bin">
-        <dependencies target-player="28.0" framework-linkage="External">
+        <dependencies target-player="31.0" framework-linkage="External">
           <entries>
             <entry library-id="35584d7e-b3ed-4446-9078-80161211cc25">
               <dependency linkage="Include" />
             </entry>
           </entries>
-          <sdk name="air28-flex4.16.1" />
+          <sdk name="air31_flex4.16.1" />
         </dependencies>
         <compiler-options>
           <map>
@@ -30,7 +30,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/extsrc" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="air28-flex4.16.1" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="air31_flex4.16.1" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="GotoCore" level="project" />
     <orderEntry type="module-library" exported="">
