@@ -7,6 +7,7 @@
     <component id="GuiAutoComplete" class="plugins.mxml.feathers.GuiAutoComplete"/>
     <component id="GuiButton" class="plugins.mxml.feathers.GuiButton"/>
     <component id="GuiButtonGroup" class="plugins.mxml.feathers.GuiButtonGroup"/>
+    <component id="GuiCheck" class="plugins.mxml.feathers.GuiCheck"/>
     <component id="GuiDrawersApplication" class="plugins.mxml.feathers.GuiDrawersApplication"/>
     <component id="GuiGroupedList" class="plugins.mxml.feathers.GuiGroupedList"/>
     <component id="GuiImageLoader" class="plugins.mxml.feathers.GuiImageLoader"/>
@@ -37,6 +38,8 @@
     <component id="GuiToggleSwitch" class="plugins.mxml.feathers.GuiToggleSwitch"/>
     <component id="GuiCallout" class="plugins.mxml.feathers.GuiCallout"/>
     <component id="GuiDrawers" class="plugins.mxml.feathers.GuiDrawers"/>
+    <component id="GuiDataGrid" class="plugins.mxml.feathers.GuiDataGrid"/>
+    <component id="GuiLayoutGroupDataGridCellRenderer" class="plugins.mxml.feathers.GuiLayoutGroupDataGridCellRenderer"/>
     <component id="GuiHeader" class="plugins.mxml.feathers.GuiHeader"/>
     <component id="GuiVideoPlayer" class="plugins.mxml.feathers.GuiVideoPlayer"/>
     <component id="GuiSoundPlayer" class="plugins.mxml.feathers.GuiSoundPlayer"/>

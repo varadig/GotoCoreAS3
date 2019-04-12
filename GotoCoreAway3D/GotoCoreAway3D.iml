@@ -3,7 +3,7 @@
   <component name="FlexBuildConfigurationManager" active="GotoCoreAway3D">
     <configurations>
       <configuration name="GotoCoreAway3D" pure-as="true" output-type="Library" output-file="GotoCoreAway3D.swc" output-folder="$MODULE_DIR$/../bin">
-        <dependencies target-player="28.0">
+        <dependencies target-player="31.0">
           <entries>
             <entry library-id="569f4bd7-3a65-49ad-9073-a18b835fe6c1">
               <dependency linkage="Include" />
@@ -12,7 +12,7 @@
               <dependency linkage="External" />
             </entry>
           </entries>
-          <sdk name="air28-flex4.16.1" />
+          <sdk name="air31_flex4.16.1" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
@@ -27,7 +27,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="air28-flex4.16.1" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="air31_flex4.16.1" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library type="flex">

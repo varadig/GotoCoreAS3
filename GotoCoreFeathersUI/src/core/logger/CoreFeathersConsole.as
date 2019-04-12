@@ -7,6 +7,8 @@ import core.utils.CoreUtils;
 
 import feathers.controls.Button;
 import feathers.controls.List;
+import feathers.controls.ScrollInteractionMode;
+import feathers.controls.ScrollInteractionMode;
 import feathers.controls.ScrollText;
 import feathers.data.ListCollection;
 import feathers.layout.VerticalLayout;
@@ -38,7 +40,6 @@ public class CoreFeathersConsole extends GuiLayoutGroup implements ICoreConsole 
         super();
         Starling.current.nativeStage.addEventListener(KeyboardEvent.KEY_DOWN, this.onConsolKeyDown);
         this.addEventListener(TouchEvent.TOUCH, this.onConsolTouched);
-
         this.addEventListener(Event.ADDED_TO_STAGE, addedToStageHandler);
     }
 
@@ -56,9 +57,9 @@ public class CoreFeathersConsole extends GuiLayoutGroup implements ICoreConsole 
 
         this.console.itemRendererType = ConsoleListItemRenderer;
         if (CoreUtils.isBrowser || CoreUtils.isDesktop)
-            this.console.interactionMode = ScrollText.INTERACTION_MODE_MOUSE;
+            this.console.interactionMode = ScrollInteractionMode.MOUSE;
         else
-            this.console.interactionMode = ScrollText.INTERACTION_MODE_TOUCH;
+            this.console.interactionMode = ScrollInteractionMode.TOUCH;
 
 
         this.console.padding = 20;
@@ -161,6 +162,10 @@ public class CoreFeathersConsole extends GuiLayoutGroup implements ICoreConsole 
 
 import core.logger.CoreFeathersConsole;
 
+import feathers.layout.HorizontalAlign;
+
+import feathers.layout.VerticalAlign;
+
 import feathers.layout.VerticalLayout;
 import feathers.layout.VerticalLayoutData;
 
@@ -173,8 +178,8 @@ class ConsoleListItemRenderer extends GuiLayoutGroupListItemRenderer {
     private var _lod:VerticalLayoutData = new VerticalLayoutData();
 
     public function ConsoleListItemRenderer():void {
-        this._lo.verticalAlign = VerticalLayout.VERTICAL_ALIGN_MIDDLE;
-        this._lo.horizontalAlign = VerticalLayout.HORIZONTAL_ALIGN_JUSTIFY;
+        this._lo.verticalAlign = VerticalAlign.MIDDLE;
+        this._lo.horizontalAlign = HorizontalAlign.JUSTIFY;
         this._lod.percentWidth = 100;
         this.layoutData = _lod;
 

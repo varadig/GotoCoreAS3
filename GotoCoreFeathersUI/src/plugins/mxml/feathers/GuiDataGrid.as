@@ -1,16 +1,14 @@
-/**
- * Created by varadig on 13/07/16.
- */
 package plugins.mxml.feathers {
+import feathers.controls.DataGrid;
 import core.base.CoreBaseClassFactory;
 import core.base.CoreCallback;
 import core.context.CoreContext;
 import core.service.CoreServiceContainer;
 
 import feathers.skins.IStyleProvider;
-import feathers.controls.Alert;
 
-public class GuiAlert extends Alert {
+
+public class GuiDataGrid extends DataGrid {
     public var sc:CoreServiceContainer;
     public static var globalStyleProvider:IStyleProvider;
 
@@ -21,7 +19,7 @@ public class GuiAlert extends Alert {
     public var callbacks:Array = [];
 
 
-    public function GuiAlert() {
+    public function GuiDataGrid () {
         CoreBaseClassFactory.construct(this);
     }
 

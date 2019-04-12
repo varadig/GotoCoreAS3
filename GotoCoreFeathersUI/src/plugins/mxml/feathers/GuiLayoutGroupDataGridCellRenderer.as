@@ -1,16 +1,15 @@
-/**
- * Created by varadig on 13/07/16.
- */
 package plugins.mxml.feathers {
+
 import core.base.CoreBaseClassFactory;
 import core.base.CoreCallback;
 import core.context.CoreContext;
 import core.service.CoreServiceContainer;
 
 import feathers.skins.IStyleProvider;
-import feathers.controls.Alert;
 
-public class GuiAlert extends Alert {
+import feathers.controls.renderers.LayoutGroupDataGridCellRenderer;
+
+public class GuiLayoutGroupDataGridCellRenderer extends LayoutGroupDataGridCellRenderer {
     public var sc:CoreServiceContainer;
     public static var globalStyleProvider:IStyleProvider;
 
@@ -21,7 +20,7 @@ public class GuiAlert extends Alert {
     public var callbacks:Array = [];
 
 
-    public function GuiAlert() {
+    public function GuiLayoutGroupDataGridCellRenderer() {
         CoreBaseClassFactory.construct(this);
     }
 
