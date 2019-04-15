@@ -127,11 +127,18 @@ public class CoreScreenManager
 		 * @param window Instance of a NativeWindow
 		 * @param oneBasedScreenIndex index of the screen you want to move your window in, main screen=1, second screen = 2, ...
 		 */
-		public static function centerWindowOnScreen(window:NativeWindow, oneBasedScreenIndex:int):void
+		public static function centerWindowOnScreen(window:NativeWindow, oneBasedScreenIndex:int,contentScaleFactor:Number=1):void
 		{
 			var screen:Screen=Screen.screens[oneBasedScreenIndex - 1] as Screen;
-			var centerX:int=screen.bounds.right - screen.bounds.width + (screen.bounds.width / 2);
-			var centerY:int=screen.bounds.bottom - screen.bounds.height + (screen.bounds.height / 2);
+			var bounds = screen.bounds;
+			var centerX:int=bounds.right - bounds.width + (bounds.width / 2);
+			var centerY:int=bounds.bottom - bounds.height + (bounds.height / 2);
+			centerX/=contentScaleFactor;
+			centerY/=contentScaleFactor;
+			Log.add('centerX:'+centerX);
+			Log.add('centerY:'+centerY);
+			Log.add('(window.width) / 2:'+(window.width) / 2);
+			Log.add('(window.height) / 2:'+(window.height) / 2);
 			window.x=centerX - (window.width) / 2;
 			window.y=centerY - (window.height) / 2;
 		}
