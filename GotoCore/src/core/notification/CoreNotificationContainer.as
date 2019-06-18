@@ -6,8 +6,9 @@ public class CoreNotificationContainer extends CoreBaseClass {
     private static var instance:CoreNotificationContainer;
 
     public static function getInstance():CoreNotificationContainer {
-        if (CoreNotificationContainer.instance == null) CoreNotificationContainer.instance = new CoreNotificationContainer();
-        return CoreNotificationContainer.instance;
+        if (instance == null)
+            instance = new CoreNotificationContainer();
+        return instance;
     }
 
     public function CoreNotificationContainer():void {
@@ -19,17 +20,21 @@ public class CoreNotificationContainer extends CoreBaseClass {
         this.sc.registerService(CoreNotification.CREATE_NOTIFICATION, this.createNotification);
     }
 
-    private var mapping:Array = [];
+    private var _mapping:Array = [];
 
     private function registerListener(params:Array):void {
         var name:String = params.name;
         var listener:CoreListener = params.listener;
 
         if (!this.hasListener(name))
-            this.mapping[name] = [];
+            this._mapping[name] = [];
 
         this.getListenersOf(name).push(listener);
+//        log("register listener:"+JSON.stringify(_mapping));
+
     }
+
+
 
     private function removeListener(params:Array):void {
         var name:String = params.name;
@@ -50,17 +55,19 @@ public class CoreNotificationContainer extends CoreBaseClass {
 
     private function createNotification(params:Array):IExecutable {
         var name:String = params.name;
+var listeners = this.getListenersOf(name);
+//        log("create notification:"+JSON.stringify(listeners));
 
         return new CoreNotification(name, this.getListenersOf(name));
     }
 
     private function hasListener(name:String):Boolean {
-        return (this.mapping[name] != null);
+        return (this._mapping[name] != null);
     }
 
     private function getListenersOf(name:String):Array {
 
-        return (this.hasListener(name) ? this.mapping [name] : [] );
+        return (this.hasListener(name) ? this._mapping [name] : [] );
     }
 
     private function removeListenersByName(params:Array):void {
@@ -76,6 +83,10 @@ public class CoreNotificationContainer extends CoreBaseClass {
 
     private function removeListeners(params:Array):void {
 
+    }
+
+    public function get mapping():Array {
+        return _mapping;
     }
 }
 }

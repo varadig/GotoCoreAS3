@@ -43,7 +43,7 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         for each (var item:File in list) {
             if (!item.isDirectory)
                 if (filter) {
-                    if (filter.indexOf(item.extension) > -1){
+                    if (filter.indexOf(item.extension) > -1) {
                         files.push(item);
                     }
                 } else {
@@ -150,6 +150,10 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
             file = path as File;
 
         return file;
+    }
+
+    public function rename(file:File, to:String):void {
+        file.moveTo(file.parent.resolvePath(to));
     }
 
 

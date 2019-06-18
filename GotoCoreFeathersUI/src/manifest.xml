@@ -33,13 +33,15 @@
     <component id="GuiStarlingBootstrapApplication" class="plugins.mxml.feathers.GuiStarlingBootstrapApplication"/>
     <component id="GuiTabBar" class="plugins.mxml.feathers.GuiTabBar"/>
     <component id="GuiTextInput" class="plugins.mxml.feathers.GuiTextInput"/>
+    <component id="GuiTextArea" class="plugins.mxml.feathers.GuiTextArea"/>
     <component id="GuiTree" class="plugins.mxml.feathers.GuiTree"/>
     <component id="GuiToggleButton" class="plugins.mxml.feathers.GuiToggleButton"/>
     <component id="GuiToggleSwitch" class="plugins.mxml.feathers.GuiToggleSwitch"/>
     <component id="GuiCallout" class="plugins.mxml.feathers.GuiCallout"/>
     <component id="GuiDrawers" class="plugins.mxml.feathers.GuiDrawers"/>
     <component id="GuiDataGrid" class="plugins.mxml.feathers.GuiDataGrid"/>
-    <component id="GuiLayoutGroupDataGridCellRenderer" class="plugins.mxml.feathers.GuiLayoutGroupDataGridCellRenderer"/>
+    <component id="GuiLayoutGroupDataGridCellRenderer"
+               class="plugins.mxml.feathers.GuiLayoutGroupDataGridCellRenderer"/>
     <component id="GuiHeader" class="plugins.mxml.feathers.GuiHeader"/>
     <component id="GuiVideoPlayer" class="plugins.mxml.feathers.GuiVideoPlayer"/>
     <component id="GuiSoundPlayer" class="plugins.mxml.feathers.GuiSoundPlayer"/>

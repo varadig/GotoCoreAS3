@@ -26,6 +26,7 @@ public class CoreFileSystem extends CoreBaseClass {
 
 
     /*SERVICES*/
+    public static const RENAME:String = 'core.filesystem.rename';
     public static const GET_SUB_FOLDERS:String = 'core.filesystem.get.sub.folders';
     public static const GET_FILES:String = 'core.filesystem.get.files';
     public static const FILE_EXISTS:String = 'core.filesystem.file.exists';
@@ -50,6 +51,7 @@ public class CoreFileSystem extends CoreBaseClass {
     public function CoreFileSystem(filesystem:IFileSystem):void {
         _fs = filesystem;
 
+        this.sc.registerService(RENAME, this.serviceRename);
         this.sc.registerService(GET_SUB_FOLDERS, this.serviceGetSubFolders);
         this.sc.registerService(GET_FILES, this.serviceGetFiles);
         this.sc.registerService(GET_FILE_REFERENCE, this.serviceGetFileReference);
@@ -177,6 +179,10 @@ public class CoreFileSystem extends CoreBaseClass {
         var file:File = new File(params[PATH]);
         return file;
 
+    }
+
+    private function serviceRename(params:Array):void {
+        _fs.rename(params[FILE],params[TO]);
     }
 }
 }
