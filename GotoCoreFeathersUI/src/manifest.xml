@@ -16,6 +16,7 @@
     <component id="GuiLayoutGroupGroupedListItemRenderer"
                class="plugins.mxml.feathers.GuiLayoutGroupGroupedListItemRenderer"/>
     <component id="GuiLayoutGroupListItemRenderer" class="plugins.mxml.feathers.GuiLayoutGroupListItemRenderer"/>
+    <component id="GuiLayoutGroupTreeItemRenderer" class="plugins.mxml.feathers.GuiLayoutGroupTreeItemRenderer"/>
     <component id="GuiList" class="plugins.mxml.feathers.GuiList"/>
     <component id="GuiPickerList" class="plugins.mxml.feathers.GuiPickerList"/>
     <component id="GuiPanelScreen" class="plugins.mxml.feathers.GuiPanelScreen"/>
@@ -30,6 +31,7 @@
     <component id="GuiStackScreenNavigator" class="plugins.mxml.feathers.GuiStackScreenNavigator"/>
     <component id="GuiStackScreenNavigatorApplication"
                class="plugins.mxml.feathers.GuiStackScreenNavigatorApplication"/>
+    <component id="GuiTabNavigator" class="plugins.mxml.feathers.GuiTabNavigator"/>
     <component id="GuiStarlingBootstrapApplication" class="plugins.mxml.feathers.GuiStarlingBootstrapApplication"/>
     <component id="GuiTabBar" class="plugins.mxml.feathers.GuiTabBar"/>
     <component id="GuiTextInput" class="plugins.mxml.feathers.GuiTextInput"/>

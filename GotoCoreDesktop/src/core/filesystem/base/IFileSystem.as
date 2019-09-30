@@ -6,7 +6,7 @@ import flash.filesystem.File;
 import flash.utils.ByteArray;
 
 public interface IFileSystem {
-    function rename(file:File,to:String):void;
+    function rename(file:File,to:Object):void;
     function getSubFolders(path:Object):Vector.<File>
 
     function getFiles(path:Object,filter:Vector.<String>):Vector.<File>

@@ -152,8 +152,12 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         return file;
     }
 
-    public function rename(file:File, to:String):void {
-        file.moveTo(file.parent.resolvePath(to));
+    public function rename(file:File, to:Object):void {
+        if (to is String)
+            file.moveTo(file.parent.resolvePath(to as String));
+        else if (to is File) {
+            file.moveTo(to as File);
+        }
     }
 
 
