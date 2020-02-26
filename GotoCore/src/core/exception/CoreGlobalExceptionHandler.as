@@ -14,7 +14,7 @@ public class CoreGlobalExceptionHandler extends CoreBaseClass {
 
     [ArrayElementType("core.logger.interfaces.IGlobalExceptionHandler")]
     public var handlerActions:Array;
-
+[Bindable]
     public var preventDefault:Boolean;
 
     public static function init(sm:Object):void

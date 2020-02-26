@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="682c78c6-f85d-444a-8b73-3e3bc06b5a67" name="Default" comment=".">
-      <change afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroupTreeItemRenderer.as" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTabNavigator.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as" beforeDir="false" afterPath="$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as" beforeDir="false" afterPath="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as" beforeDir="false" afterPath="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as" beforeDir="false" afterPath="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GotoCore.swc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GotoCore.swc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GotoCoreAway3D.swc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GotoCoreAway3D.swc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GotoCoreDesktop.swc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GotoCoreDesktop.swc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GotoCoreFeathersUI.swc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GotoCoreFeathersUI.swc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GotoCoreMobile.swc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GotoCoreMobile.swc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GotoCoreStarling.swc" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GotoCoreStarling.swc" afterDir="false" />
     </list>
     <ignored path="GotoCoreAS3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +41,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreFileSystemDesktop.as" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoreFileSystemDesktop.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="298">
+              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreFileSystem.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="116" column="53" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreGlobalExceptionHandler.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreGlobalExceptionLogHandler.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/handler/CoreGlobalExceptionLogHandler.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#33#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HyperlinkTextFieldTextRenderer.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/controls/text/HyperlinkTextFieldTextRenderer.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -51,8 +92,8 @@
       <file leaf-file-name="IFileSystem.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="240">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -62,35 +103,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
               <caret line="46" column="5" selection-start-line="45" selection-start-column="19" selection-end-line="46" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreLoggerDebug.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/CoreLoggerDebug.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreBaseLogger.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/base/CoreBaseLogger.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="7" column="73" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuiLayoutGroupListItemRenderer.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroupListItemRenderer.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +150,6 @@
       <find>exist</find>
       <find>read</find>
       <find>CREATE</find>
-      <find>write</find>
       <find>getSub</find>
       <find>filter</find>
       <find>getFiles</find>
@@ -152,6 +163,10 @@
       <find>rename</find>
       <find>move</find>
       <find>formatJson</find>
+      <find>write</find>
+      <find>Keyboard.</find>
+      <find>copyTo</find>
+      <find>copyFile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,7 +209,6 @@
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/core/exception/handler/CoreGlobalExceptionFeathersAlert.mxml" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiApplication.as" />
         <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/logger/CoreLoggerFile.as" />
-        <option value="$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiAlert.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiCheck.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiDataGrid.as" />
@@ -208,7 +222,6 @@
         <option value="$PROJECT_DIR$/GotoCore/src/core/notification/CoreNotificationContainer.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTextArea.mxml" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTextArea.as" />
-        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/controls/text/HyperlinkTextFieldTextRenderer.as" />
         <option value="$PROJECT_DIR$/GotoCore/src/core/logger/CoreLoggerApplicationConsol.as" />
         <option value="$PROJECT_DIR$/GotoCore/src/core/logger/base/CoreBaseLogger.as" />
@@ -216,8 +229,10 @@
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTabNavigator.mxml" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiTabNavigator.as" />
         <option value="$PROJECT_DIR$/GotoCoreFeathersUI/src/manifest.xml" />
+        <option value="$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as" />
         <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as" />
         <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as" />
+        <option value="$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as" />
       </list>
     </option>
   </component>
@@ -287,6 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,32 +314,6 @@
               <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
               <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GotoCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="toplevel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GotoCoreAS3" type="b2602c69:ProjectViewProjectNode" />
@@ -366,9 +356,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,13 +377,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="65" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="67" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="709" />
-    <property name="SearchEverywhereHistoryKey" value="CoreFileSyst&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as&#10;CoreNotificationC&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotificationContainer.as&#10;CoreFileS&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as&#10;CoreScreen&#9;FILE&#9;file://D:/Work/develop/as3/GotoCoreAS3/GotoCoreDesktop/src/core/utils/CoreScreenManager.as&#10;GuiAppl&#9;null&#9;null&#10;CoreNet&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreDesktop/src/core/net/CoreNet.as&#10;CoreFile&#9;null&#9;null&#10;CoreFilesystem&#9;null&#9;null&#10;GuiSlider&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/plugins/mxml/spark/GuiSlider.as&#10;CoreFea&#9;null&#9;null&#10;CoreAsset&#9;null&#9;null&#10;GuiStackS&#9;null&#9;null&#10;GuiApplication&#9;null&#9;null&#10;GuiWin&#9;null&#9;null&#10;CoreFunction&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseFunctionWrapper.as&#10;CoreNoti&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreList&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreListener.as&#10;CoreNot&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreNotifi&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotificationContainer.as&#10;CoreBaseFunction&#9;null&#9;null&#10;CorStarlingcon&#9;null&#9;null&#10;CoreStar&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/context/CoreStarlingContext.as&#10;CoreConte&#9;null&#9;null&#10;CoreStarlinCon&#9;null&#9;null&#10;GuiLayoutGro&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as&#10;CoreCallback&#9;null&#9;null&#10;CoreBaseclass&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreBaseClas&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClass.as&#10;CoreBaseFa&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreCallba&#9;null&#9;null&#10;CoreBAseSpri&#9;null&#9;null&#10;CoreNotification&#9;null&#9;null&#10;CoreFeat&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;GuiLayout&#9;null&#9;null&#10;FeathersC&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;CoreStarlingU&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;GuiTetx&#9;null&#9;null&#10;CoreStarlingUt&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;CoreLoggerServer&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Hyp&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCoreFeathersUI/src/feathers/controls/text/HyperlinkTextFieldTextRenderer.as&#10;CoreGlobalExceptionHandler&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as&#10;CoreGlo&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCore/src/core/exception/handler/CoreGlobalExceptionLogHandler.as&#10;FileS&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as&#10;CoreFileSyst&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as&#10;CoreNotificationC&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotificationContainer.as&#10;CoreFileS&#9;FILE&#9;file:///Volumes/Work/develop/as3/GotoCoreAS3/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as&#10;CoreScreen&#9;FILE&#9;file://D:/Work/develop/as3/GotoCoreAS3/GotoCoreDesktop/src/core/utils/CoreScreenManager.as&#10;GuiAppl&#9;null&#9;null&#10;CoreNet&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreDesktop/src/core/net/CoreNet.as&#10;CoreFile&#9;null&#9;null&#10;CoreFilesystem&#9;null&#9;null&#10;GuiSlider&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/plugins/mxml/spark/GuiSlider.as&#10;CoreFea&#9;null&#9;null&#10;CoreAsset&#9;null&#9;null&#10;GuiStackS&#9;null&#9;null&#10;GuiApplication&#9;null&#9;null&#10;GuiWin&#9;null&#9;null&#10;CoreFunction&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseFunctionWrapper.as&#10;CoreNoti&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreList&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreListener.as&#10;CoreNot&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotification.as&#10;CoreNotifi&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/notification/CoreNotificationContainer.as&#10;CoreBaseFunction&#9;null&#9;null&#10;CorStarlingcon&#9;null&#9;null&#10;CoreStar&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/context/CoreStarlingContext.as&#10;CoreConte&#9;null&#9;null&#10;CoreStarlinCon&#9;null&#9;null&#10;GuiLayoutGro&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroup.as&#10;CoreCallback&#9;null&#9;null&#10;CoreBaseclass&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreBaseClas&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClass.as&#10;CoreBaseFa&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCore/src/core/base/CoreBaseClassFactory.as&#10;CoreCallba&#9;null&#9;null&#10;CoreBAseSpri&#9;null&#9;null&#10;CoreNotification&#9;null&#9;null&#10;CoreFeat&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;GuiLayout&#9;null&#9;null&#10;FeathersC&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreFeathersUI/src/core/logger/CoreFeathersConsole.as&#10;CoreStarlingU&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;GuiTetx&#9;null&#9;null&#10;CoreStarlingUt&#9;FILE&#9;file:///Volumes/Work/AS3/GotoCoreAS3/GotoCoreStarling/src/core/utils/CoreStarlingUtils.as&#10;CoreLoggerServer&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/GotoCoreFeathersUI/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16992188" />
     <property name="project.structure.side.proportion" value="0.17213112" />
     <property name="prop_add_unversioned_files" value="true" />
@@ -492,6 +481,16 @@
       <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -595,16 +594,6 @@
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -992,6 +981,45 @@
       <workItem from="1567144792867" duration="467000" />
       <workItem from="1567403031743" duration="547000" />
       <workItem from="1567775913434" duration="15000" />
+      <workItem from="1570713082801" duration="2270000" />
+      <workItem from="1570765840110" duration="414000" />
+      <workItem from="1571915348061" duration="2002000" />
+      <workItem from="1571984480395" duration="359000" />
+      <workItem from="1572887746442" duration="448000" />
+      <workItem from="1572937511847" duration="559000" />
+      <workItem from="1572977293479" duration="199000" />
+      <workItem from="1572977846271" duration="37000" />
+      <workItem from="1572978084604" duration="403000" />
+      <workItem from="1573045136993" duration="972000" />
+      <workItem from="1573113030570" duration="354000" />
+      <workItem from="1573114660393" duration="153000" />
+      <workItem from="1573161465637" duration="201000" />
+      <workItem from="1573190973974" duration="1432000" />
+      <workItem from="1573397036284" duration="599000" />
+      <workItem from="1573473066125" duration="597000" />
+      <workItem from="1573486576993" duration="96000" />
+      <workItem from="1573731674309" duration="1228000" />
+      <workItem from="1573803432129" duration="511000" />
+      <workItem from="1573915637053" duration="1283000" />
+      <workItem from="1573974210902" duration="604000" />
+      <workItem from="1574022179083" duration="354000" />
+      <workItem from="1574045851942" duration="276000" />
+      <workItem from="1574046326897" duration="620000" />
+      <workItem from="1574074421970" duration="626000" />
+      <workItem from="1574135735089" duration="599000" />
+      <workItem from="1574232834453" duration="1907000" />
+      <workItem from="1574319361846" duration="4213000" />
+      <workItem from="1574617823371" duration="474000" />
+      <workItem from="1574673315866" duration="550000" />
+      <workItem from="1574714638286" duration="597000" />
+      <workItem from="1574737383342" duration="1504000" />
+      <workItem from="1580986388531" duration="2491000" />
+      <workItem from="1581070016923" duration="683000" />
+      <workItem from="1581135439560" duration="1084000" />
+      <workItem from="1581399686983" duration="483000" />
+      <workItem from="1581506007784" duration="264000" />
+      <workItem from="1581570274503" duration="1011000" />
+      <workItem from="1582680400886" duration="710000" />
     </task>
     <task id="LOCAL-00001">
       <created>1467175415105</created>
@@ -1074,7 +1102,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408516000" />
+    <option name="totallyTimeSpent" value="441683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1085,15 +1113,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.53780615" side_tool="true" visible="true" weight="0.20199005" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.53833866" side_tool="true" visible="true" weight="0.19800995" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49893504" weight="0.32935324" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48455805" weight="0.36218905" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.471246" weight="0.36218905" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2715655" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.4052183" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info anchor="right" id="Ant Build" order="3" />
@@ -1103,7 +1131,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.46219382" visible="true" weight="0.20298508" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.46166134" visible="true" weight="0.20298508" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1135,7 +1163,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1180,13 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/handler/CoreGlobalExceptionLogHandler.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/core/exception/handler/CoreGlobalExceptionFeathersAlert.mxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1208,13 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1351,21 +1365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
-          <caret line="184" column="42" selection-start-line="184" selection-start-column="42" selection-end-line="184" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/controls/G2CFeatherToggleButton.as" />
-    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/controls/text/HyperlinkTextFieldTextRenderer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GotoCore/src/core/base/CoreBaseClass.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1388,13 +1388,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/plugins/mxml/feathers/GuiLayoutGroupListItemRenderer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GotoCore/src/core/logger/base/CoreBaseLogger.as">
       <provider selected="true" editor-type-id="text-editor">
@@ -1445,20 +1439,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GotoCore/src/core/utils/toplevel/formatJSON.as">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/handler/CoreGlobalExceptionLogHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#33#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreFeathersUI/src/feathers/controls/text/HyperlinkTextFieldTextRenderer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCore/src/core/exception/CoreGlobalExceptionHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/base/IFileSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystemDesktop.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="298">
+          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GotoCoreDesktop/src/core/filesystem/CoreFileSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="116" column="53" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
         </state>
       </provider>
     </entry>

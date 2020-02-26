@@ -68,10 +68,10 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         return file;
     }
 
-    public function copyFile(from:Object, to:Object):void {
+    public function copyFile(from:Object, to:Object,append:Boolean=true):void {
         var srcFile:File = parsePath(from);
         var descFile:File = parsePath(to);
-        srcFile.copyTo(descFile, true);
+        srcFile.copyTo(descFile, append);
     }
 
     public function copyFolder(from:Object, to:Object):void {

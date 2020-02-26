@@ -17,7 +17,7 @@ public interface IFileSystem {
 
     function createFolder(path:Object):File
 
-    function copyFile(from:Object, to:Object):void
+    function copyFile(from:Object, to:Object,append:Boolean=true):void
 
     function copyFolder(from:Object, to:Object):void
 

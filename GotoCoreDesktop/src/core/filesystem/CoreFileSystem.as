@@ -23,6 +23,7 @@ public class CoreFileSystem extends CoreBaseClass {
     public static const CONTENT:String = 'core.filesystem.content';
     public static const FILE:String = 'core.filesystem.file';
     public static const FILTER:String = 'core.filesystem.filter';
+    public static const APPEND:String = 'core.filesystem.append';
 
 
     /*SERVICES*/
@@ -110,7 +111,10 @@ public class CoreFileSystem extends CoreBaseClass {
     }
 
     private function serviceCopyFile(params:Array):void {
-        _fs.copyFile(params[FROM], params[TO]);
+        var append:Boolean = true;
+        if (params.hasOwnProperty(APPEND))
+            append = params.hasOwnProperty(APPEND);
+        _fs.copyFile(params[FROM], params[TO], append);
     }
 
     private function serviceCopyFolder(params:Array):void {
@@ -182,7 +186,7 @@ public class CoreFileSystem extends CoreBaseClass {
     }
 
     private function serviceRename(params:Array):void {
-        _fs.rename(params[FILE],params[TO]);
+        _fs.rename(params[FILE], params[TO]);
     }
 }
 }
