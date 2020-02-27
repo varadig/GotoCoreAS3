@@ -24,6 +24,7 @@ public class CoreFileSystem extends CoreBaseClass {
     public static const FILE:String = 'core.filesystem.file';
     public static const FILTER:String = 'core.filesystem.filter';
     public static const APPEND:String = 'core.filesystem.append';
+    public static const RECURSIVE:String = 'core.filesystem.recursive';
 
 
     /*SERVICES*/
@@ -35,6 +36,7 @@ public class CoreFileSystem extends CoreBaseClass {
     public static const CREATE_FOLDER:String = 'core.filesystem.create.folder';
     public static const COPY_FILE:String = 'core.filesystem.copy.file';
     public static const COPY_FOLDER:String = 'core.filesystem.copy.folder';
+    public static const COPY_CONTENT:String = 'core.filesystem.copy.folder';
     public static const CREATE_FILE:String = 'core.filesystem.create.file';
     public static const CREATE_XML_FILE:String = 'core.filesystem.create.xml.file';
     public static const APPEND_TEXT_FILE:String = 'core.filesystem.append.text.file';
@@ -61,6 +63,7 @@ public class CoreFileSystem extends CoreBaseClass {
         this.sc.registerService(CREATE_FOLDER, this.serviceCreateFolder);
         this.sc.registerService(COPY_FILE, this.serviceCopyFile);
         this.sc.registerService(COPY_FOLDER, this.serviceCopyFolder);
+        this.sc.registerService(COPY_CONTENT, this.serviceCopyContent);
         this.sc.registerService(CREATE_FILE, this.serviceCreateFile);
         this.sc.registerService(CREATE_XML_FILE, this.serviceCreateXMLFile);
         this.sc.registerService(APPEND_TEXT_FILE, this.serviceAppendTextFile);
@@ -119,6 +122,10 @@ public class CoreFileSystem extends CoreBaseClass {
 
     private function serviceCopyFolder(params:Array):void {
         _fs.copyFolder(params[FROM], params[TO]);
+    }
+
+    private function serviceCopyContent(params:Array):void {
+        _fs.copyContent(params[FROM], params[TO], params[RECURSIVE]);
     }
 
     private function serviceCreateFile(params:Array):File {

@@ -68,7 +68,7 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         return file;
     }
 
-    public function copyFile(from:Object, to:Object,append:Boolean=true):void {
+    public function copyFile(from:Object, to:Object, append:Boolean = true):void {
         var srcFile:File = parsePath(from);
         var descFile:File = parsePath(to);
         srcFile.copyTo(descFile, append);
@@ -76,6 +76,26 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
 
     public function copyFolder(from:Object, to:Object):void {
         copyFile(from, to)
+    }
+
+    public function copyContent(from:Object, to:Object, isRecursive:Boolean = true):void {
+
+        var directory:Array = from.getDirectoryListing();
+
+        for each (var file:File in directory) {
+            if (isRecursive) {
+
+                if (file.isDirectory)
+                    copyContent(file, to.resolvePath(file.name));
+                else
+                    file.copyTo(to.resolvePath(file.name), true);
+            } else {
+                if (!file.isDirectory)
+                    file.copyTo(to.resolvePath(file.name), true);
+            }
+        }
+
+
     }
 
     public function writeFile(path:Object, content:Object, appendable:Boolean = false):File {

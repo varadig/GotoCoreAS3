@@ -21,6 +21,8 @@ public interface IFileSystem {
 
     function copyFolder(from:Object, to:Object):void
 
+    function copyContent(from:Object, to:Object,isRecursive:Boolean=true):void
+
     function writeFile(path:Object, content:Object, appendable:Boolean = false):File
 
     function readTextFile(path:Object):String
