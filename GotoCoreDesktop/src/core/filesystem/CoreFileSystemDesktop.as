@@ -53,7 +53,6 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         return files;
     }
 
-
     public function fileExists(path:Object):Boolean {
         return parsePath(path).exists;
     }
