@@ -1,6 +1,12 @@
 ﻿package core.filesystem {
+import com.codecatalyst.promise.Deferred;
+import com.codecatalyst.promise.Promise;
+
 import core.filesystem.base.CoreBaseFileSystem;
 import core.filesystem.base.IFileSystem;
+
+import flash.events.Event;
+import flash.events.IOErrorEvent;
 
 import flash.filesystem.File;
 import flash.filesystem.FileMode;
@@ -73,8 +79,29 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         srcFile.copyTo(descFile, append);
     }
 
+    public function copyFileAsync(from:Object, to:Object, append:Boolean = true):Promise {
+        var deferred:Deferred = new Deferred();
+        var srcFile:File = parsePath(from);
+        var descFile:File = parsePath(to);
+        srcFile.addEventListener(Event.COMPLETE, function (event:Event) {
+            deferred.resolve(event);
+        });
+
+        srcFile.addEventListener(IOErrorEvent.IO_ERROR, function (event:IOErrorEvent) {
+            deferred.reject(event);
+        });
+
+        srcFile.copyToAsync(descFile, append);
+
+        return deferred.promise
+    }
+
     public function copyFolder(from:Object, to:Object):void {
         copyFile(from, to)
+    }
+
+    public function copyFolderAsync(from:Object, to:Object):Promise {
+        return copyFileAsync(from, to)
     }
 
     public function copyContent(from:Object, to:Object, isRecursive:Boolean = true):void {
@@ -93,6 +120,30 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
                     file.copyTo(to.resolvePath(file.name), true);
             }
         }
+
+
+    }
+
+    public function copyContentAsync(from:Object, to:Object, isRecursive:Boolean = true):Promise {
+        //TODO need to implement;
+        var deferred:Deferred = new Deferred();
+        var directory:Array = from.getDirectoryListing();
+        var pool:Vector.<File> = new Vector.<File>();
+
+        for each (var file:File in directory) {
+            if (isRecursive) {
+
+                if (file.isDirectory)
+                    copyContent(file, to.resolvePath(file.name));
+                else
+                    file.copyTo(to.resolvePath(file.name), true);
+            } else {
+                if (!file.isDirectory)
+                    file.copyTo(to.resolvePath(file.name), true);
+            }
+        }
+
+        return deferred.promise
 
 
     }
@@ -126,6 +177,23 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         return UTFBytes;
     }
 
+    public function readTextFileAsync(path:Object):Promise {
+        var deferred:Deferred = new Deferred();
+        var file:File = parsePath(path);
+
+        var stream:FileStream = new FileStream();
+        stream.addEventListener(Event.COMPLETE, function (event:Event) {
+            deferred.resolve(stream.readUTFBytes(stream.bytesAvailable))
+            stream.close();
+        });
+        stream.addEventListener(IOErrorEvent.IO_ERROR, function (event:IOErrorEvent) {
+            deferred.reject(event);
+            stream.close();
+        });
+        stream.openAsync(file, FileMode.READ);
+        return deferred.promise;
+    }
+
     public function readBinaryFile(path:Object):ByteArray {
         var file:File = parsePath(path);
         if (!file.exists)
@@ -138,6 +206,27 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         stream.readBytes(bytes, 0, stream.bytesAvailable);
         stream.close();
         return bytes;
+    }
+
+    public function readBinaryFileAsync(path:Object):Promise {
+        var deferred:Deferred = new Deferred();
+        var file:File = parsePath(path);
+
+        var stream:FileStream = new FileStream();
+        stream.addEventListener(Event.COMPLETE, function (event:Event) {
+
+            var bytes:ByteArray = new ByteArray();
+            stream.readBytes(bytes, 0, stream.bytesAvailable);
+            stream.close();
+            deferred.resolve(bytes);
+        });
+
+        stream.addEventListener(IOErrorEvent.IO_ERROR, function (event:IOErrorEvent) {
+            deferred.reject(event);
+            stream.close();
+        });
+        stream.openAsync(file, FileMode.READ);
+        return deferred.promise;
     }
 
     public function readFile(path:String):File {
@@ -155,10 +244,41 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         return file;
     }
 
+    public function deleteFileAsync(path:Object):Promise {
+        var deferred:Deferred = new Deferred();
+
+        var file:File = parsePath(path);
+
+        file.addEventListener(Event.COMPLETE, function (event:Event) {
+            deferred.resolve(file);
+        });
+        file.addEventListener(IOErrorEvent.IO_ERROR, function (event:IOErrorEvent) {
+            deferred.reject(event);
+        });
+
+        file.deleteFileAsync();
+        return deferred.promise;
+    }
+
     public function deleteFolder(path:Object):File {
         var file:File = parsePath(path);
         file.deleteDirectory(true);
         return file;
+    }
+
+    public function deleteFolderAsync(path:Object):Promise {
+        var deferred:Deferred = new Deferred();
+        var file:File = parsePath(path);
+        file.addEventListener(Event.COMPLETE, function (event:Event) {
+            deferred.resolve(file);
+
+        });
+        file.addEventListener(IOErrorEvent.IO_ERROR, function (event:IOErrorEvent) {
+            deferred.reject(event);
+        });
+
+        file.deleteDirectoryAsync(true);
+        return deferred.promise;
     }
 
     private function parsePath(path:Object):File {

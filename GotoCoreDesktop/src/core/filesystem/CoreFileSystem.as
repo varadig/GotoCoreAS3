@@ -5,6 +5,8 @@
  * CoreNotificationContainer
  */
 package core.filesystem {
+import com.codecatalyst.promise.Promise;
+
 import core.base.CoreBaseClass;
 import core.filesystem.base.IFileSystem;
 import core.notification.CoreNotificationContainer;
@@ -35,19 +37,27 @@ public class CoreFileSystem extends CoreBaseClass {
     public static const FOLDER_EXISTS:String = 'core.filesystem.folder.exists';
     public static const CREATE_FOLDER:String = 'core.filesystem.create.folder';
     public static const COPY_FILE:String = 'core.filesystem.copy.file';
+    public static const COPY_FILE_ASYNC:String = 'core.filesystem.copy.file.async';
     public static const COPY_FOLDER:String = 'core.filesystem.copy.folder';
+    public static const COPY_FOLDER_ASYNC:String = 'core.filesystem.copy.folder.async';
     public static const COPY_CONTENT:String = 'core.filesystem.copy.folder';
+    public static const COPY_CONTENT_ASYNC:String = 'core.filesystem.copy.folder.async';
     public static const CREATE_FILE:String = 'core.filesystem.create.file';
     public static const CREATE_XML_FILE:String = 'core.filesystem.create.xml.file';
     public static const APPEND_TEXT_FILE:String = 'core.filesystem.append.text.file';
     public static const APPEND_XML_FILE:String = 'core.filesystem.append.xml.file';
     public static const APPEND_BINARY_FILE:String = 'core.filesystem.append.binary.file';
     public static const READ_TEXT:String = 'core.filesystem.read.text';
+    public static const READ_TEXT_ASYNC:String = 'core.filesystem.read.text.async';
     public static const READ_XML_FILE:String = 'core.filesystem.read.xml.file';
     public static const READ_BYTES:String = 'core.filesystem.read.bytes';
+    public static const READ_BYTES_ASYNC:String = 'core.filesystem.read.bytes.async';
     public static const READ_FILE:String = 'core.filesystem.read.file';
+
     public static const DELETE_FILE:String = 'core.filesystem.delete.file';
+    public static const DELETE_FILE_ASYNC:String = 'core.filesystem.delete.file.async';
     public static const DELETE_FOLDER:String = 'core.filesystem.delete.folder';
+    public static const DELETE_FOLDER_ASYNC:String = 'core.filesystem.delete.folder.async';
     public static const GET_FILE_REFERENCE:String = 'core.filesystem.get.file.reference';
 
 
@@ -61,20 +71,31 @@ public class CoreFileSystem extends CoreBaseClass {
         this.sc.registerService(FILE_EXISTS, this.serviceFileExists);
         this.sc.registerService(FOLDER_EXISTS, this.serviceFolderExists);
         this.sc.registerService(CREATE_FOLDER, this.serviceCreateFolder);
+
         this.sc.registerService(COPY_FILE, this.serviceCopyFile);
+        this.sc.registerService(COPY_FILE_ASYNC, this.serviceCopyFileAsync);
+
         this.sc.registerService(COPY_FOLDER, this.serviceCopyFolder);
+        this.sc.registerService(COPY_FOLDER_ASYNC, this.serviceCopyFolderAsync);
+
         this.sc.registerService(COPY_CONTENT, this.serviceCopyContent);
+        this.sc.registerService(COPY_CONTENT_ASYNC, this.serviceCopyContentAsync);
+
         this.sc.registerService(CREATE_FILE, this.serviceCreateFile);
         this.sc.registerService(CREATE_XML_FILE, this.serviceCreateXMLFile);
         this.sc.registerService(APPEND_TEXT_FILE, this.serviceAppendTextFile);
         this.sc.registerService(APPEND_XML_FILE, this.serviceAppendXMLFile);
         this.sc.registerService(APPEND_BINARY_FILE, this.serviceAppendBinaryFile);
         this.sc.registerService(READ_TEXT, this.serviceReadText);
+        this.sc.registerService(READ_TEXT_ASYNC, this.serviceReadTextAsync);
         this.sc.registerService(READ_XML_FILE, this.serviceReadXMLFile);
         this.sc.registerService(READ_BYTES, this.serviceReadBytes);
+        this.sc.registerService(READ_BYTES_ASYNC, this.serviceReadBytesAsync);
         this.sc.registerService(READ_FILE, this.serviceReadFile);
         this.sc.registerService(DELETE_FILE, this.serviceDeleteFile);
+        this.sc.registerService(DELETE_FILE_ASYNC, this.serviceDeleteFileAsync);
         this.sc.registerService(DELETE_FOLDER, this.serviceDeleteFolder);
+        this.sc.registerService(DELETE_FOLDER_ASYNC, this.serviceDeleteFolderAsync);
 
         this.initDependModules();
     }
@@ -120,12 +141,27 @@ public class CoreFileSystem extends CoreBaseClass {
         _fs.copyFile(params[FROM], params[TO], append);
     }
 
+    private function serviceCopyFileAsync(params:Array):Promise {
+        var append:Boolean = true;
+        if (params.hasOwnProperty(APPEND))
+            append = params.hasOwnProperty(APPEND);
+        return _fs.copyFileAsync(params[FROM], params[TO], append);
+    }
+
     private function serviceCopyFolder(params:Array):void {
         _fs.copyFolder(params[FROM], params[TO]);
     }
 
+    private function serviceCopyFolderAsync(params:Array):Promise {
+        return _fs.copyFolderAsync(params[FROM], params[TO]);
+    }
+
     private function serviceCopyContent(params:Array):void {
         _fs.copyContent(params[FROM], params[TO], params[RECURSIVE]);
+    }
+
+    private function serviceCopyContentAsync(params:Array):Promise {
+        return _fs.copyContentAsync(params[FROM], params[TO], params[RECURSIVE]);
     }
 
     private function serviceCreateFile(params:Array):File {
@@ -158,8 +194,16 @@ public class CoreFileSystem extends CoreBaseClass {
         return _fs.readTextFile(params[PATH]);
     }
 
+    private function serviceReadTextAsync(params:Array):Promise {
+        return _fs.readTextFileAsync(params[PATH]);
+    }
+
     private function serviceReadBytes(params:Array):ByteArray {
         return _fs.readBinaryFile(params[PATH]);
+    }
+
+    private function serviceReadBytesAsync(params:Array):Promise {
+        return _fs.readBinaryFileAsync(params[PATH]);
     }
 
     private function serviceReadFile(params:Array):File {
@@ -171,8 +215,16 @@ public class CoreFileSystem extends CoreBaseClass {
         return _fs.deleteFile(params[PATH]);
     }
 
+    private function serviceDeleteFileAsync(params:Array):Promise {
+        return _fs.deleteFileAsync(params[PATH]);
+    }
+
     private function serviceDeleteFolder(params:Array):File {
         return _fs.deleteFolder(params[PATH]);
+    }
+
+    private function serviceDeleteFolderAsync(params:Array):Promise {
+        return _fs.deleteFolderAsync(params[PATH]);
     }
 
     private function serviceReadXMLFile(params:Array):XML {
