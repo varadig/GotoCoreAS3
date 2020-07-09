@@ -15,7 +15,6 @@ public class CoreBaseSprite extends Sprite {
         CoreBaseClassFactory.construct(this);
     }
 
-
     public function serviceAddCallback(params:Array):void {
         CoreBaseClassFactory.serviceAddCallback(this, params);
     }

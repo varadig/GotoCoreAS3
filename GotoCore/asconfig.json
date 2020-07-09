@@ -1,0 +1,10 @@
+{
+  "type": "lib",
+  "compilerOptions": {
+    "source-path": ["src"],
+    "library-path": ["lib"],
+    "include-libraries": ["lib"],
+    "include-sources": ["src", "extsrc"],
+    "output": "bin/GotoCore.swc"
+  }
+}

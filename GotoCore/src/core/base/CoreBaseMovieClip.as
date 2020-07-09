@@ -11,7 +11,7 @@ public class CoreBaseMovieClip extends MovieClip {
 
     public var callbacks:Array = [];
 
-    public function CoreBaseSprite() {
+    public function CoreBaseMovieClip() {
         CoreBaseClassFactory.construct(this);
     }
 

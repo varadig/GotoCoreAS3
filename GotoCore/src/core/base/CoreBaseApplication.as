@@ -10,6 +10,7 @@ import core.utils.CoreUtils;
 import flash.events.Event;
 import flash.system.Capabilities;
 
+
 public class CoreBaseApplication extends CoreBaseSprite {
     protected var loggers:Vector.<CoreBaseLogger>;
 
@@ -31,8 +32,6 @@ public class CoreBaseApplication extends CoreBaseSprite {
             if (CoreUtils.isBrowser)
                 this.loggers.push(new CoreLoggerBrowserConsole());
         }
-
-
     }
 }
 }

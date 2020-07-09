@@ -1,0 +1,11 @@
+{
+    "as3mxml.sdk.framework": "/Volumes/Work/develop/as3/_SDK_/osx/air31-flex4.16.1",
+    "triggerTaskOnSave.selectedTask": "compile release - asconfig.json",
+    "triggerTaskOnSave.tasks": {
+        "ActionScript: compile debug - asconfig.json": [
+            
+            "src/**/*.as"
+        ]
+    }
+
+}
