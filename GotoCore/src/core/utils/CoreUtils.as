@@ -1,5 +1,4 @@
 ﻿package core.utils {
-import com.adobe.crypto.MD5;
 
 import core.base.CoreBaseClass;
 
@@ -101,10 +100,6 @@ public class CoreUtils extends CoreBaseClass {
 
     public static function get randomNumber():Number {
         return Math.random() * 100000;
-    }
-
-    public static function get randomHash():String {
-        return MD5.hash((Math.random() * 100000).toString());
     }
 
     public static function mapValue(num:Number, min1:Number, max1:Number, min2:Number, max2:Number, round:Boolean = false, constrainMin:Boolean = true, constrainMax:Boolean = true):Number {

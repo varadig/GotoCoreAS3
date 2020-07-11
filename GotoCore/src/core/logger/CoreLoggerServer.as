@@ -39,7 +39,7 @@ public class CoreLoggerServer extends CoreBaseLogger {
         urlVariables.log = this.createEntryFrom(message);
         urlVariables.filename = this.logWorker.filename;
 
-        for each(var request in this.requests) {
+        for each(var request:URLRequest in this.requests) {
             request.data = urlVariables;
             loader = new URLLoader();
             loader.dataFormat = URLLoaderDataFormat.TEXT;

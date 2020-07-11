@@ -1,17 +1,15 @@
 /**
  * Created by varadig on 1/27/16.
  */
-package core.base {
-    import core.logger.CoreLoggerBrowserConsole;
-    import core.logger.CoreLoggerDebug;
-    import core.logger.base.CoreBaseLogger;
-    import core.utils.CoreUtils;
-
+package core.controls {
     import flash.events.Event;
-    import flash.system.Capabilities;
+
+    import core.base.CoreBaseMovieClip;
+    import core.layout.base.ILayoutDisplayObject;
+    import core.layout.base.ILayout;
 
 
-    public class CoreBaseApplication extends CoreBaseMovieClip {
+    public class CoreBaseApplication extends CoreLayoutGroup implements ILayoutDisplayObject {
 
         public function CoreBaseApplication() {
             super();
@@ -24,8 +22,13 @@ package core.base {
         }
 
         protected function initialize():void {
+            this.initContext();
             this.initCoreModules();
             this.initModules();
+        }
+
+        protected function initContext():void {
+            this.context.stage = this.stage;
         }
 
         protected function initModules():void {

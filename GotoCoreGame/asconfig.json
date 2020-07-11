@@ -1,0 +1,10 @@
+{
+  "type": "lib",
+  "compilerOptions": {
+    "source-path": ["src","test"],
+    "include-sources": ["src"],
+    "library-path": ["../bin/GotoCore.swc"],
+    "include-libraries": ["../bin/GotoCore.swc"],
+    "output": "../bin/GotoCoreGame.swc"
+  }
+}
