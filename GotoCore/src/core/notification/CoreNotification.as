@@ -9,6 +9,7 @@ import flash.utils.getQualifiedClassName;
 public class CoreNotification extends CoreBaseSender {
     public static const CREATE_NOTIFICATION:String = "create.notification";
     public static const NAME:String = "name";
+
     public static const BASE_NAME:String = "base.name";
 
 
@@ -26,6 +27,15 @@ public class CoreNotification extends CoreBaseSender {
         return CoreServiceContainer.getInstance().getService(CoreNotification.CREATE_NOTIFICATION)
                 .addParam(CoreNotification.NAME, name)
                 .execute();
+    }
+
+    public static function createNotifications(...names):Vector.<CoreNotification> {
+        var notifications:Vector.<CoreNotification> = new Vector.<CoreNotification>();
+        for each(var name:String in names)
+            notifications.push(CoreServiceContainer.getInstance().getService(CoreNotification.CREATE_NOTIFICATION)
+                    .addParam(CoreNotification.NAME, name)
+                    .execute());
+        return notifications;
     }
 
     public static function createNotificationFromClass(c:Class):CoreNotification {

@@ -43,6 +43,8 @@ public class CoreFileSystem extends CoreBaseClass {
     public static const COPY_CONTENT:String = 'core.filesystem.copy.folder';
     public static const COPY_CONTENT_ASYNC:String = 'core.filesystem.copy.folder.async';
     public static const CREATE_FILE:String = 'core.filesystem.create.file';
+    public static const CREATE_FILE_ASYNC:String = 'core.filesystem.create.file.async';
+
     public static const CREATE_XML_FILE:String = 'core.filesystem.create.xml.file';
     public static const APPEND_TEXT_FILE:String = 'core.filesystem.append.text.file';
     public static const APPEND_XML_FILE:String = 'core.filesystem.append.xml.file';
@@ -82,6 +84,7 @@ public class CoreFileSystem extends CoreBaseClass {
         this.sc.registerService(COPY_CONTENT_ASYNC, this.serviceCopyContentAsync);
 
         this.sc.registerService(CREATE_FILE, this.serviceCreateFile);
+        this.sc.registerService(CREATE_FILE_ASYNC, this.serviceCreateFileAsync);
         this.sc.registerService(CREATE_XML_FILE, this.serviceCreateXMLFile);
         this.sc.registerService(APPEND_TEXT_FILE, this.serviceAppendTextFile);
         this.sc.registerService(APPEND_XML_FILE, this.serviceAppendXMLFile);
@@ -162,6 +165,11 @@ public class CoreFileSystem extends CoreBaseClass {
 
     private function serviceCopyContentAsync(params:Array):Promise {
         return _fs.copyContentAsync(params[FROM], params[TO], params[RECURSIVE]);
+    }
+
+    private function serviceCreateFileAsync(params:Array):Promise {
+
+        return _fs.writeFileAsync(params[PATH], params[CONTENT]);
     }
 
     private function serviceCreateFile(params:Array):File {

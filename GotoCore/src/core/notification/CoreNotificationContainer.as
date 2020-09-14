@@ -35,7 +35,6 @@ public class CoreNotificationContainer extends CoreBaseClass {
     }
 
 
-
     private function removeListener(params:Array):void {
         var name:String = params.name;
         var reference:Function = params.reference;
@@ -55,8 +54,6 @@ public class CoreNotificationContainer extends CoreBaseClass {
 
     private function createNotification(params:Array):IExecutable {
         var name:String = params.name;
-var listeners = this.getListenersOf(name);
-//        log("create notification:"+JSON.stringify(listeners));
 
         return new CoreNotification(name, this.getListenersOf(name));
     }
@@ -67,7 +64,7 @@ var listeners = this.getListenersOf(name);
 
     private function getListenersOf(name:String):Array {
 
-        return (this.hasListener(name) ? this._mapping [name] : [] );
+        return (this.hasListener(name) ? this._mapping [name] : []);
     }
 
     private function removeListenersByName(params:Array):void {

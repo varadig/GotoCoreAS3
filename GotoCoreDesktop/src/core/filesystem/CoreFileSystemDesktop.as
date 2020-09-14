@@ -163,6 +163,26 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
         return file;
     }
 
+    public function writeFileAsync(path:Object, content:Object, appendable:Boolean = false):Promise {
+        var deferred:Deferred = new Deferred();
+        var file:File = parsePath(path);
+
+        var stream:FileStream = new FileStream();
+        stream.openAsync(file, appendable ? FileMode.APPEND : FileMode.WRITE);
+        stream.addEventListener(Event.COMPLETE, function (event:Event):void {
+            deferred.resolve(file);
+        })
+        if (content is String) {
+            stream.writeUTFBytes(String(content));
+        }
+        else if (content is ByteArray) {
+            stream.writeBytes(ByteArray(content));
+        }
+        stream.close();
+
+        return deferred.promise;
+    }
+
 
     public function readTextFile(path:Object):String {
         var file:File = parsePath(path);

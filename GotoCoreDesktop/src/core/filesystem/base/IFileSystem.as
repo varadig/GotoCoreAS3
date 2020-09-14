@@ -34,7 +34,7 @@ public interface IFileSystem {
 
     function writeFile(path:Object, content:Object, appendable:Boolean = false):File
 
-//    function writeFileAsync(path:Object, content:Object, appendable:Boolean = false):Promise
+    function writeFileAsync(path:Object, content:Object, appendable:Boolean = false):Promise
 
     function readTextFile(path:Object):String
 
