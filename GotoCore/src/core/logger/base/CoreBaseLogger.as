@@ -3,8 +3,6 @@ import core.base.CoreBaseClass;
 import core.logger.interfaces.ICoreLogger;
 import core.utils.CoreUtils;
 
-import mx.utils.StringUtil;
-
 public class CoreBaseLogger extends CoreBaseClass implements ICoreLogger {
     protected var br:String = "\n";
 

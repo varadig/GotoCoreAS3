@@ -17,7 +17,7 @@ public class CoreLogger extends CoreBaseClass {
     }
 
 
-    public static function addLogger(logger:CoreBaseLogger):void {
+    public static function addLogger(logger:ICoreLogger):void {
         CoreLogger.getInstance();
         if (_loggers == null)
             _loggers = new Vector.<ICoreLogger>();
@@ -30,7 +30,7 @@ public class CoreLogger extends CoreBaseClass {
     }
 
     private function serviceLog(params:Array):void {
-        for each(var logger:CoreBaseLogger in  _loggers)
+        for each(var logger:ICoreLogger in  _loggers)
             logger.addLog(params[MESSAGE]);
     }
 }
