@@ -282,9 +282,30 @@ public class CoreFileSystemDesktop extends CoreBaseFileSystem implements IFileSy
 
     public function deleteFolder(path:Object):File {
         var file:File = parsePath(path);
-        file.deleteDirectory(true);
+        this.deleteFolderRecursive(file);
         return file;
     }
+
+    private function deleteFolderRecursive(value:File) {
+
+        if (!value.isDirectory) return;
+        for each(var fileOrDirectory:File in value.getDirectoryListing()) {
+
+            if (fileOrDirectory.isDirectory) {
+                deleteFolderRecursive(fileOrDirectory);
+                try {
+                    fileOrDirectory.deleteDirectory();
+                } catch (error:Error) {
+                    trace("CoreFileSystemDesktop::deleteFolderRecursive->" + error);
+                }
+
+            } else {
+                fileOrDirectory.deleteFile();
+            }
+        }
+        value.deleteDirectory();
+    }
+
 
     public function deleteFolderAsync(path:Object):Promise {
         var deferred:Deferred = new Deferred();
